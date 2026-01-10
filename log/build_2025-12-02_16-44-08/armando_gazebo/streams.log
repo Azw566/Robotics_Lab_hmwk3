@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+[0.097s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+[0.100s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo
+[0.113s] -- Install configuration: ""
+[0.115s] -- Execute custom install script
+[0.115s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/launch/armando_world.launch.py
+[0.116s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/package_run_dependencies/armando_gazebo
+[0.116s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/parent_prefix_path/armando_gazebo
+[0.116s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.sh
+[0.116s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.dsv
+[0.116s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.sh
+[0.117s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.dsv
+[0.117s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.bash
+[0.117s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.sh
+[0.117s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.zsh
+[0.117s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.dsv
+[0.117s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.dsv
+[0.135s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/packages/armando_gazebo
+[0.135s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig.cmake
+[0.135s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig-version.cmake
+[0.136s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.xml
+[0.166s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo

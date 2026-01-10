@@ -1,0 +1,89 @@
+[0.014s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/armando_gazebo -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo
+[0.033s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.201s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.208s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.245s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.248s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.255s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.316s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.317s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.536s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.578s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.584s] -- Searching for dependencies of ignition-math6
+[0.586s] -- Looking for OGRE...
+[0.594s] -- Found Ogre Ghadamon (1.9.0)
+[0.594s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.608s] -- Looking for OGRE_Paging...
+[0.609s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.609s] -- Looking for OGRE_Terrain...
+[0.609s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.609s] -- Looking for OGRE_Property...
+[0.609s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.609s] -- Looking for OGRE_RTShaderSystem...
+[0.610s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.610s] -- Looking for OGRE_Volume...
+[0.610s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.610s] -- Looking for OGRE_Overlay...
+[0.610s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.722s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.723s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.723s] -- Searching for dependencies of ignition-transport8
+[0.744s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.758s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.765s] -- Checking for module 'libzmq >= 4'
+[0.784s] --   Found libzmq , version 4.3.4
+[0.845s] -- Checking for module 'uuid'
+[0.865s] --   Found uuid, version 2.37.2
+[0.913s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.913s] -- Searching for dependencies of ignition-msgs5
+[0.940s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.948s] -- Checking for module 'tinyxml2'
+[0.966s] --   Found tinyxml2, version 9.0.0
+[1.011s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.012s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.012s] -- Searching for dependencies of ignition-common3
+[1.012s] -- Looking for dlfcn.h - found
+[1.013s] -- Looking for libdl - found
+[1.029s] -- Searching for <ignition-common3> component [graphics]
+[1.029s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.030s] -- Searching for dependencies of ignition-common3-graphics
+[1.030s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.032s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.032s] -- Searching for dependencies of ignition-fuel_tools4
+[1.087s] -- Checking for module 'jsoncpp'
+[1.105s] --   Found jsoncpp, version 1.9.5
+[1.164s] -- Checking for module 'libzip'
+[1.181s] --   Found libzip, version 1.7.3
+[1.227s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.227s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.228s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.230s] -- Gazebo version: 11.10
+[1.231s] -- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[1.388s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.772s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[1.772s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.777s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.778s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.838s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[1.838s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[1.838s]   this project has asked CMake to find a package configuration file provided
+[1.839s]   by "joint_state_publisher", but CMake did not find one.
+[1.839s] 
+[1.839s]   Could not find a package configuration file provided by
+[1.839s]   "joint_state_publisher" with any of the following names:
+[1.839s] 
+[1.839s]     joint_state_publisherConfig.cmake
+[1.839s]     joint_state_publisher-config.cmake
+[1.839s] 
+[1.839s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[1.839s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[1.839s]   above files.  If "joint_state_publisher" provides a separate development
+[1.839s]   package or SDK, be sure it has been installed.
+[1.839s] 
+[1.840s] [0m
+[1.840s] -- Configuring incomplete, errors occurred!
+[1.840s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo/CMakeFiles/CMakeOutput.log".
+[1.855s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/armando_gazebo -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo
