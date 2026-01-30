@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 device_id;\u0086 device_type;\u008d[32] vendor_name;\u008d[32] model_name;\u008d[24] firmware_version;\u008d[24] hardware_version;\u008d[33] serial_number;\u0086[2] _padding0;",
+		"fields_total_length": 195,
+		"orb_ids": [39],
+		"main_orb_id": 39,
+		"dependencies": [],
+		"name": "px4/DeviceInformation"
+}

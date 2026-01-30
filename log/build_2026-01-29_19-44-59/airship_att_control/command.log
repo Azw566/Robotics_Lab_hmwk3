@@ -1,0 +1,1 @@
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/airship_att_control': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/modules/airship_att_control -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/airship_att_control

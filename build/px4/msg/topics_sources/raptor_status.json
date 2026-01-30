@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 timestamp_last_vehicle_angular_velocity;\u0088 timestamp_last_vehicle_local_position;\u0088 timestamp_last_vehicle_attitude;\u0088 timestamp_last_trajectory_setpoint;\u008a control_interval;\u008a trajectory_setpoint_dt_mean;\u008a trajectory_setpoint_dt_max;\u008a trajectory_setpoint_dt_max_since_activation;\u008a[3] internal_reference_position;\u008a[3] internal_reference_linear_velocity;\u008c subscription_update_angular_velocity;\u008c subscription_update_local_position;\u008c subscription_update_attitude;\u008c subscription_update_trajectory_setpoint;\u008c subscription_update_vehicle_status;\u0086 exit_reason;\u008c vehicle_angular_velocity_stale;\u008c vehicle_local_position_stale;\u008c vehicle_attitude_stale;\u008c trajectory_setpoint_stale;\u008c active;\u0086 substep;\u0086[4] _padding0;",
+		"fields_total_length": 846,
+		"orb_ids": [205],
+		"main_orb_id": 205,
+		"dependencies": [],
+		"name": "px4/RaptorStatus"
+}

@@ -1,0 +1,2 @@
+source;share/offboard_rl/environment/ament_prefix_path.sh
+source;share/offboard_rl/environment/path.sh

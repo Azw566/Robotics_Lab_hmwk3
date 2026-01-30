@@ -1,0 +1,42 @@
+[0.048s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/airship_att_control': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/modules/airship_att_control -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/airship_att_control
+[0.415s] -- The C compiler identification is GNU 11.4.0
+[0.415s] -- The CXX compiler identification is GNU 11.4.0
+[0.415s] -- Detecting C compiler ABI info
+[0.415s] -- Detecting C compiler ABI info - done
+[0.415s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.415s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.416s] -- Detecting CXX compiler ABI info
+[0.418s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.418s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.418s]   contain a literal, direct call to the project() command.  Add a line of
+[0.418s]   code such as
+[0.419s] 
+[0.419s]     project(ProjectName)
+[0.419s] 
+[0.419s]   near the top of the file, but after cmake_minimum_required().
+[0.419s] 
+[0.419s]   CMake is pretending there is a "project(Project)" command on the first
+[0.419s]   line.
+[0.420s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.420s] [0m
+[0.464s] -- Detecting CXX compiler ABI info - done
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.471s] -- Detecting CXX compile features
+[0.471s] -- Detecting CXX compile features - done
+[0.472s] [31mCMake Error at CMakeLists.txt:34 (px4_add_module):
+[0.472s]   Unknown CMake command "px4_add_module".
+[0.472s] 
+[0.472s] [0m
+[0.472s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.472s]   No cmake_minimum_required command is present.  A line of code such as
+[0.472s] 
+[0.472s]     cmake_minimum_required(VERSION 3.22)
+[0.472s] 
+[0.472s]   should be added at the top of the file.  The version specified may be lower
+[0.472s]   if you wish to support older CMake versions for this project.  For more
+[0.472s]   information run "cmake --help-policy CMP0000".
+[0.473s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.473s] [0m
+[0.473s] -- Configuring incomplete, errors occurred!
+[0.473s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/airship_att_control/CMakeFiles/CMakeOutput.log".

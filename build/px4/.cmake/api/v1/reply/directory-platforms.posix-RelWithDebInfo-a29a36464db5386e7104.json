@@ -1,0 +1,164 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"platforms/posix/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "px4",
+			"paths" : 
+			[
+				"posix-configs",
+				"test",
+				"/home/telemaque/Robotics_Lab/ros2_ws/build/px4/etc",
+				"/home/telemaque/Robotics_Lab/ros2_ws/build/px4/bin"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "px4",
+			"paths" : 
+			[
+				"integrationtests",
+				"launch",
+				"/home/telemaque/Robotics_Lab/ros2_ws/build/px4/bin"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "px4",
+			"paths" : 
+			[
+				"CMakeLists.txt",
+				"package.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "px4/Tools",
+			"paths" : 
+			[
+				"Tools/ecl_ekf"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "px4/Tools",
+			"paths" : 
+			[
+				"Tools/simulation/gazebo-classic/setup_gazebo.bash",
+				"Tools/upload_log.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "px4/build/px4_sitl_default",
+			"paths" : 
+			[
+				"/home/telemaque/Robotics_Lab/ros2_ws/build/px4/etc"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "px4/Tools/simulation/gz",
+			"paths" : 
+			[
+				"Tools/simulation/gz/server.config"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "px4/Tools/simulation/gazebo-classic/sitl_gazebo-classic",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"Tools/simulation/gz/models",
+				"Tools/simulation/gz/worlds"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "platforms/posix",
+		"source" : "platforms/posix"
+	}
+}

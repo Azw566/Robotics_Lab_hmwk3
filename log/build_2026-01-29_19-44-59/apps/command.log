@@ -1,0 +1,1 @@
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/apps': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/modules/muorb/apps -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/apps

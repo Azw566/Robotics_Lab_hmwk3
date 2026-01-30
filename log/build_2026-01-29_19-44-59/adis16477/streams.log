@@ -1,0 +1,42 @@
+[0.046s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16477': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/drivers/imu/analog_devices/adis16477 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/adis16477
+[0.082s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.083s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.083s]   contain a literal, direct call to the project() command.  Add a line of
+[0.084s]   code such as
+[0.084s] 
+[0.084s]     project(ProjectName)
+[0.084s] 
+[0.084s]   near the top of the file, but after cmake_minimum_required().
+[0.084s] 
+[0.084s]   CMake is pretending there is a "project(Project)" command on the first
+[0.084s]   line.
+[0.084s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.085s] [0m
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.212s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.307s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.440s] -- Detecting CXX compile features
+[0.444s] [31mCMake Error at CMakeLists.txt:33 (px4_add_module):
+[0.446s]   Unknown CMake command "px4_add_module".
+[0.447s] 
+[0.447s] [0m
+[0.447s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.447s]   No cmake_minimum_required command is present.  A line of code such as
+[0.447s] 
+[0.447s]     cmake_minimum_required(VERSION 3.22)
+[0.447s] 
+[0.447s]   should be added at the top of the file.  The version specified may be lower
+[0.447s]   if you wish to support older CMake versions for this project.  For more
+[0.447s]   information run "cmake --help-policy CMP0000".
+[0.448s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.448s] [0m
+[0.448s] -- Detecting CXX compile features - done
+[0.448s] -- Configuring incomplete, errors occurred!
+[0.448s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/adis16477/CMakeFiles/CMakeOutput.log".

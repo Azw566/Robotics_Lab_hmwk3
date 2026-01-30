@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/modules/simulation/gz_plugins/gstreamer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_gz_plugins",
+			"paths" : 
+			[
+				"src/modules/simulation/gz_plugins/libGstCameraSystem.so"
+			],
+			"targetId" : "GstCameraSystem::@65f8b7f8f55bac4e4251",
+			"targetIndex" : 39,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/modules/simulation/gz_plugins/gstreamer",
+		"source" : "src/modules/simulation/gz_plugins/gstreamer"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ sitl_gazebo-classic
+# Source files and their labels
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/simulation/simulator_mavlink/CMakeFiles/sitl_gazebo-classic
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/simulation/simulator_mavlink/CMakeFiles/sitl_gazebo-classic.rule
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/simulation/simulator_mavlink/CMakeFiles/sitl_gazebo-classic-complete.rule
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Stamp/sitl_gazebo-classic/sitl_gazebo-classic-build.rule
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Stamp/sitl_gazebo-classic/sitl_gazebo-classic-configure.rule
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Stamp/sitl_gazebo-classic/sitl_gazebo-classic-download.rule
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Stamp/sitl_gazebo-classic/sitl_gazebo-classic-install.rule
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Stamp/sitl_gazebo-classic/sitl_gazebo-classic-mkdir.rule
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Stamp/sitl_gazebo-classic/sitl_gazebo-classic-patch.rule
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Stamp/sitl_gazebo-classic/sitl_gazebo-classic-update.rule

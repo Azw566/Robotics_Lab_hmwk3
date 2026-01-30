@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (-) JobUnselected: {'identifier': 'offboard_rl'}
+[0.000773] (-) JobUnselected: {'identifier': 'px4'}
+[0.000839] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000905] (force_land) JobQueued: {'identifier': 'force_land', 'dependencies': OrderedDict([('px4_msgs', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs')])}
+[0.000946] (force_land) JobStarted: {'identifier': 'force_land'}
+[0.010650] (force_land) JobProgress: {'identifier': 'force_land', 'progress': 'cmake'}
+[0.011269] (force_land) JobProgress: {'identifier': 'force_land', 'progress': 'build'}
+[0.012061] (force_land) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c72ea083_5502_4581_a288_cfb699fa8a34'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/force_land:/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/home/telemaque/Robotics_Lab/ros2_ws/install/force_land:/opt/ros/humble')]), 'shell': False}
+[0.060543] (force_land) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/force_land.dir/src/force_land_node.cpp.o\x1b[0m\n'}
+[0.099758] (-) TimerEvent: {}
+[0.200076] (-) TimerEvent: {}
+[0.300424] (-) TimerEvent: {}
+[0.400786] (-) TimerEvent: {}
+[0.501212] (-) TimerEvent: {}
+[0.601601] (-) TimerEvent: {}
+[0.701946] (-) TimerEvent: {}
+[0.802321] (-) TimerEvent: {}
+[0.902719] (-) TimerEvent: {}
+[1.003082] (-) TimerEvent: {}
+[1.103408] (-) TimerEvent: {}
+[1.203683] (-) TimerEvent: {}
+[1.304054] (-) TimerEvent: {}
+[1.404407] (-) TimerEvent: {}
+[1.504754] (-) TimerEvent: {}
+[1.605070] (-) TimerEvent: {}
+[1.705398] (-) TimerEvent: {}
+[1.805704] (-) TimerEvent: {}
+[1.906025] (-) TimerEvent: {}
+[2.006342] (-) TimerEvent: {}
+[2.106645] (-) TimerEvent: {}
+[2.206967] (-) TimerEvent: {}
+[2.307307] (-) TimerEvent: {}
+[2.407637] (-) TimerEvent: {}
+[2.507952] (-) TimerEvent: {}
+[2.608293] (-) TimerEvent: {}
+[2.708611] (-) TimerEvent: {}
+[2.808962] (-) TimerEvent: {}
+[2.909304] (-) TimerEvent: {}
+[3.009635] (-) TimerEvent: {}
+[3.109946] (-) TimerEvent: {}
+[3.210252] (-) TimerEvent: {}
+[3.310601] (-) TimerEvent: {}
+[3.410943] (-) TimerEvent: {}
+[3.511271] (-) TimerEvent: {}
+[3.611636] (-) TimerEvent: {}
+[3.712029] (-) TimerEvent: {}
+[3.812399] (-) TimerEvent: {}
+[3.912713] (-) TimerEvent: {}
+[4.013002] (-) TimerEvent: {}
+[4.113321] (-) TimerEvent: {}
+[4.213632] (-) TimerEvent: {}
+[4.313980] (-) TimerEvent: {}
+[4.414298] (-) TimerEvent: {}
+[4.514606] (-) TimerEvent: {}
+[4.614935] (-) TimerEvent: {}
+[4.715240] (-) TimerEvent: {}
+[4.815516] (-) TimerEvent: {}
+[4.915837] (-) TimerEvent: {}
+[5.016095] (-) TimerEvent: {}
+[5.116382] (-) TimerEvent: {}
+[5.216678] (-) TimerEvent: {}
+[5.316951] (-) TimerEvent: {}
+[5.417214] (-) TimerEvent: {}
+[5.517480] (-) TimerEvent: {}
+[5.617754] (-) TimerEvent: {}
+[5.718059] (-) TimerEvent: {}
+[5.818338] (-) TimerEvent: {}
+[5.918620] (-) TimerEvent: {}
+[6.018890] (-) TimerEvent: {}
+[6.119160] (-) TimerEvent: {}
+[6.219465] (-) TimerEvent: {}
+[6.319822] (-) TimerEvent: {}
+[6.420101] (-) TimerEvent: {}
+[6.520373] (-) TimerEvent: {}
+[6.620681] (-) TimerEvent: {}
+[6.720981] (-) TimerEvent: {}
+[6.821318] (-) TimerEvent: {}
+[6.921652] (-) TimerEvent: {}
+[7.021964] (-) TimerEvent: {}
+[7.122290] (-) TimerEvent: {}
+[7.222620] (-) TimerEvent: {}
+[7.322998] (-) TimerEvent: {}
+[7.423282] (-) TimerEvent: {}
+[7.523622] (-) TimerEvent: {}
+[7.623872] (-) TimerEvent: {}
+[7.724223] (-) TimerEvent: {}
+[7.824520] (-) TimerEvent: {}
+[7.924813] (-) TimerEvent: {}
+[8.025120] (-) TimerEvent: {}
+[8.125383] (-) TimerEvent: {}
+[8.225653] (-) TimerEvent: {}
+[8.325932] (-) TimerEvent: {}
+[8.426264] (-) TimerEvent: {}
+[8.526590] (-) TimerEvent: {}
+[8.626932] (-) TimerEvent: {}
+[8.727508] (-) TimerEvent: {}
+[8.827883] (-) TimerEvent: {}
+[8.928228] (-) TimerEvent: {}
+[9.028586] (-) TimerEvent: {}
+[9.128883] (-) TimerEvent: {}
+[9.229200] (-) TimerEvent: {}
+[9.329546] (-) TimerEvent: {}
+[9.429866] (-) TimerEvent: {}
+[9.500245] (force_land) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable force_land\x1b[0m\n'}
+[9.529977] (-) TimerEvent: {}
+[9.630319] (-) TimerEvent: {}
+[9.730728] (-) TimerEvent: {}
+[9.831050] (-) TimerEvent: {}
+[9.931345] (-) TimerEvent: {}
+[9.947845] (force_land) StdoutLine: {'line': b'[100%] Built target force_land\n'}
+[9.959906] (force_land) CommandEnded: {'returncode': 0}
+[9.960505] (force_land) JobProgress: {'identifier': 'force_land', 'progress': 'install'}
+[9.969555] (force_land) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c72ea083_5502_4581_a288_cfb699fa8a34'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/force_land:/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/home/telemaque/Robotics_Lab/ros2_ws/install/force_land:/opt/ros/humble')]), 'shell': False}
+[9.979696] (force_land) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.979934] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/lib/force_land/force_land\n'}
+[9.983300] (force_land) StdoutLine: {'line': b'-- Set runtime path of "/home/telemaque/Robotics_Lab/ros2_ws/install/force_land/lib/force_land/force_land" to ""\n'}
+[9.983431] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/package_run_dependencies/force_land\n'}
+[9.983501] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/parent_prefix_path/force_land\n'}
+[9.983582] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/ament_prefix_path.sh\n'}
+[9.983613] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/ament_prefix_path.dsv\n'}
+[9.983643] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/path.sh\n'}
+[9.983672] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/path.dsv\n'}
+[9.983701] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.bash\n'}
+[9.983729] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.sh\n'}
+[9.983793] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.zsh\n'}
+[9.983830] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.dsv\n'}
+[9.983857] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/package.dsv\n'}
+[9.983927] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/packages/force_land\n'}
+[9.983982] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/cmake/force_landConfig.cmake\n'}
+[9.984052] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/cmake/force_landConfig-version.cmake\n'}
+[9.984153] (force_land) StdoutLine: {'line': b'-- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/package.xml\n'}
+[9.985820] (force_land) CommandEnded: {'returncode': 0}
+[10.006696] (force_land) JobEnded: {'identifier': 'force_land', 'rc': 0}
+[10.007719] (-) EventReactorShutdown: {}

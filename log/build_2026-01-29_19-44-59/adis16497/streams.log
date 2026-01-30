@@ -1,0 +1,42 @@
+[0.046s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16497': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/drivers/imu/analog_devices/adis16497 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/adis16497
+[0.082s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.083s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.083s]   contain a literal, direct call to the project() command.  Add a line of
+[0.083s]   code such as
+[0.083s] 
+[0.083s]     project(ProjectName)
+[0.083s] 
+[0.083s]   near the top of the file, but after cmake_minimum_required().
+[0.083s] 
+[0.083s]   CMake is pretending there is a "project(Project)" command on the first
+[0.083s]   line.
+[0.083s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.084s] [0m
+[0.119s] -- The C compiler identification is GNU 11.4.0
+[0.194s] -- The CXX compiler identification is GNU 11.4.0
+[0.200s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.293s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.294s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.412s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.429s] -- Detecting CXX compile features - done
+[0.431s] -- Configuring incomplete, errors occurred!
+[0.431s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/adis16497/CMakeFiles/CMakeOutput.log".
+[0.432s] [31mCMake Error at CMakeLists.txt:33 (px4_add_module):
+[0.432s]   Unknown CMake command "px4_add_module".
+[0.432s] 
+[0.432s] [0m
+[0.433s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.433s]   No cmake_minimum_required command is present.  A line of code such as
+[0.433s] 
+[0.433s]     cmake_minimum_required(VERSION 3.22)
+[0.433s] 
+[0.433s]   should be added at the top of the file.  The version specified may be lower
+[0.433s]   if you wish to support older CMake versions for this project.  For more
+[0.433s]   information run "cmake --help-policy CMP0000".
+[0.433s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.433s] [0m

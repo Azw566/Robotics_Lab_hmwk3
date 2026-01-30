@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/build/px4/OpticalFlow/install;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

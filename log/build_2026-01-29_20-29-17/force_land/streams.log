@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/home/telemaque/Robotics_Lab/ros2_ws/install/force_land:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/force_land -- -j12 -l12
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/force_land.dir/src/force_land_node.cpp.o[0m
+[9.222s] [100%] [32m[1mLinking CXX executable force_land[0m
+[9.652s] [100%] Built target force_land
+[9.663s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land' returned '0': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/home/telemaque/Robotics_Lab/ros2_ws/install/force_land:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/force_land -- -j12 -l12
+[9.674s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/home/telemaque/Robotics_Lab/ros2_ws/install/force_land:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/force_land
+[9.680s] -- Install configuration: ""
+[9.680s] -- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/lib/force_land/force_land
+[9.686s] -- Set runtime path of "/home/telemaque/Robotics_Lab/ros2_ws/install/force_land/lib/force_land/force_land" to ""
+[9.686s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/package_run_dependencies/force_land
+[9.686s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/parent_prefix_path/force_land
+[9.686s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/ament_prefix_path.sh
+[9.686s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/ament_prefix_path.dsv
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/path.sh
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/path.dsv
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.bash
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.sh
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.zsh
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.dsv
+[9.687s] -- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/package.dsv
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/packages/force_land
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/cmake/force_landConfig.cmake
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/cmake/force_landConfig-version.cmake
+[9.687s] -- Up-to-date: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/package.xml
+[9.688s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land' returned '0': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/home/telemaque/Robotics_Lab/ros2_ws/install/force_land:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/force_land

@@ -1,0 +1,158 @@
+{
+	"backtrace" : 9,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_ep_step_add_target",
+			"ExternalProject_Add_Step",
+			"cmake_language",
+			"_ep_add_build_command",
+			"ExternalProject_Add",
+			"include"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-3.22/Modules/ExternalProject.cmake",
+			"/usr/share/cmake-3.22/Modules/ExternalProject.cmake:3366:EVAL",
+			"src/modules/simulation/gz_plugins/optical_flow/optical_flow.cmake",
+			"src/modules/simulation/gz_plugins/optical_flow/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 40,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3720,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 3366,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2428,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2153,
+				"parent" : 8
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "ExternalProjectTargets/OpticalFlow"
+	},
+	"id" : "OpticalFlow-build::@f2d68234a75845349b9d",
+	"name" : "OpticalFlow-build",
+	"paths" : 
+	{
+		"build" : "src/modules/simulation/gz_plugins/optical_flow",
+		"source" : "src/modules/simulation/gz_plugins/optical_flow"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 9,
+			"isGenerated" : true,
+			"path" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/simulation/gz_plugins/optical_flow/CMakeFiles/OpticalFlow-build",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/simulation/gz_plugins/optical_flow/CMakeFiles/OpticalFlow-build.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/OpticalFlow/src/OpticalFlow-stamp/OpticalFlow-build.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/OpticalFlow/src/OpticalFlow-stamp/OpticalFlow-configure.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/OpticalFlow/src/OpticalFlow-stamp/OpticalFlow-patch.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/OpticalFlow/src/OpticalFlow-stamp/OpticalFlow-download.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/OpticalFlow/src/OpticalFlow-stamp/OpticalFlow-mkdir.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

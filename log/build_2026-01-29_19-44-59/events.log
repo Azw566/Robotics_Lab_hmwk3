@@ -1,0 +1,1046 @@
+[0.000000] (-) TimerEvent: {}
+[0.008730] (actuator_test) JobQueued: {'identifier': 'actuator_test', 'dependencies': OrderedDict()}
+[0.008892] (adis16448) JobQueued: {'identifier': 'adis16448', 'dependencies': OrderedDict()}
+[0.009013] (adis16470) JobQueued: {'identifier': 'adis16470', 'dependencies': OrderedDict()}
+[0.009050] (adis16477) JobQueued: {'identifier': 'adis16477', 'dependencies': OrderedDict()}
+[0.009084] (adis16497) JobQueued: {'identifier': 'adis16497', 'dependencies': OrderedDict()}
+[0.009109] (adis16507) JobQueued: {'identifier': 'adis16507', 'dependencies': OrderedDict()}
+[0.009130] (ads1115) JobQueued: {'identifier': 'ads1115', 'dependencies': OrderedDict()}
+[0.009150] (ads7953) JobQueued: {'identifier': 'ads7953', 'dependencies': OrderedDict()}
+[0.009168] (airship_att_control) JobQueued: {'identifier': 'airship_att_control', 'dependencies': OrderedDict()}
+[0.009187] (airspeed_selector) JobQueued: {'identifier': 'airspeed_selector', 'dependencies': OrderedDict()}
+[0.009205] (apps) JobQueued: {'identifier': 'apps', 'dependencies': OrderedDict()}
+[0.009223] (asp5033) JobQueued: {'identifier': 'asp5033', 'dependencies': OrderedDict()}
+[0.009241] (attitude_estimator_q) JobQueued: {'identifier': 'attitude_estimator_q', 'dependencies': OrderedDict()}
+[0.009259] (atxxxx) JobQueued: {'identifier': 'atxxxx', 'dependencies': OrderedDict()}
+[0.009276] (auav) JobQueued: {'identifier': 'auav', 'dependencies': OrderedDict()}
+[0.009294] (auterion_autostarter) JobQueued: {'identifier': 'auterion_autostarter', 'dependencies': OrderedDict()}
+[0.009311] (barometer) JobQueued: {'identifier': 'barometer', 'dependencies': OrderedDict()}
+[0.009329] (batmon) JobQueued: {'identifier': 'batmon', 'dependencies': OrderedDict()}
+[0.009346] (batt_smbus) JobQueued: {'identifier': 'batt_smbus', 'dependencies': OrderedDict()}
+[0.009373] (battery_simulator) JobQueued: {'identifier': 'battery_simulator', 'dependencies': OrderedDict()}
+[0.009391] (battery_status) JobQueued: {'identifier': 'battery_status', 'dependencies': OrderedDict()}
+[0.009408] (bl_update) JobQueued: {'identifier': 'bl_update', 'dependencies': OrderedDict()}
+[0.009425] (board_adc) JobQueued: {'identifier': 'board_adc', 'dependencies': OrderedDict()}
+[0.009442] (bootloaders) JobQueued: {'identifier': 'bootloaders', 'dependencies': OrderedDict()}
+[0.009459] (bosch) JobQueued: {'identifier': 'bosch', 'dependencies': OrderedDict()}
+[0.009476] (broadcom) JobQueued: {'identifier': 'broadcom', 'dependencies': OrderedDict()}
+[0.009492] (bsondump) JobQueued: {'identifier': 'bsondump', 'dependencies': OrderedDict()}
+[0.009517] (camera_capture) JobQueued: {'identifier': 'camera_capture', 'dependencies': OrderedDict()}
+[0.009542] (camera_feedback) JobQueued: {'identifier': 'camera_feedback', 'dependencies': OrderedDict()}
+[0.009561] (camera_trigger) JobQueued: {'identifier': 'camera_trigger', 'dependencies': OrderedDict()}
+[0.009578] (cdcacm_autostart) JobQueued: {'identifier': 'cdcacm_autostart', 'dependencies': OrderedDict()}
+[0.009595] (cm8jl65) JobQueued: {'identifier': 'cm8jl65', 'dependencies': OrderedDict()}
+[0.009613] (commander) JobQueued: {'identifier': 'commander', 'dependencies': OrderedDict()}
+[0.009630] (control_allocator) JobQueued: {'identifier': 'control_allocator', 'dependencies': OrderedDict()}
+[0.009648] (crsf_rc) JobQueued: {'identifier': 'crsf_rc', 'dependencies': OrderedDict()}
+[0.009666] (cyphal) JobQueued: {'identifier': 'cyphal', 'dependencies': OrderedDict()}
+[0.009683] (dataman) JobQueued: {'identifier': 'dataman', 'dependencies': OrderedDict()}
+[0.009700] (dmesg) JobQueued: {'identifier': 'dmesg', 'dependencies': OrderedDict()}
+[0.009720] (dshot) JobQueued: {'identifier': 'dshot', 'dependencies': OrderedDict()}
+[0.009738] (dsm_rc) JobQueued: {'identifier': 'dsm_rc', 'dependencies': OrderedDict()}
+[0.009755] (dumpfile) JobQueued: {'identifier': 'dumpfile', 'dependencies': OrderedDict()}
+[0.009772] (dyn) JobQueued: {'identifier': 'dyn', 'dependencies': OrderedDict()}
+[0.009791] (dyn_hello) JobQueued: {'identifier': 'dyn_hello', 'dependencies': OrderedDict()}
+[0.010036] (ekf2) JobQueued: {'identifier': 'ekf2', 'dependencies': OrderedDict()}
+[0.010064] (esc_battery) JobQueued: {'identifier': 'esc_battery', 'dependencies': OrderedDict()}
+[0.010083] (ets) JobQueued: {'identifier': 'ets', 'dependencies': OrderedDict()}
+[0.010100] (eulernav_bahrs) JobQueued: {'identifier': 'eulernav_bahrs', 'dependencies': OrderedDict()}
+[0.010118] (events) JobQueued: {'identifier': 'events', 'dependencies': OrderedDict()}
+[0.010135] (failure) JobQueued: {'identifier': 'failure', 'dependencies': OrderedDict()}
+[0.010152] (fake_gps) JobQueued: {'identifier': 'fake_gps', 'dependencies': OrderedDict()}
+[0.010169] (fake_imu) JobQueued: {'identifier': 'fake_imu', 'dependencies': OrderedDict()}
+[0.010185] (fake_magnetometer) JobQueued: {'identifier': 'fake_magnetometer', 'dependencies': OrderedDict()}
+[0.010202] (flight_mode_manager) JobQueued: {'identifier': 'flight_mode_manager', 'dependencies': OrderedDict()}
+[0.010218] (force_land) JobQueued: {'identifier': 'force_land', 'dependencies': OrderedDict()}
+[0.010235] (ft_technologies) JobQueued: {'identifier': 'ft_technologies', 'dependencies': OrderedDict()}
+[0.010251] (fw_att_control) JobQueued: {'identifier': 'fw_att_control', 'dependencies': OrderedDict()}
+[0.010267] (fw_autotune_attitude_control) JobQueued: {'identifier': 'fw_autotune_attitude_control', 'dependencies': OrderedDict()}
+[0.010285] (fw_lateral_longitudinal_control) JobQueued: {'identifier': 'fw_lateral_longitudinal_control', 'dependencies': OrderedDict()}
+[0.010302] (fw_mode_manager) JobQueued: {'identifier': 'fw_mode_manager', 'dependencies': OrderedDict()}
+[0.010318] (fw_rate_control) JobQueued: {'identifier': 'fw_rate_control', 'dependencies': OrderedDict()}
+[0.010336] (fxas21002c) JobQueued: {'identifier': 'fxas21002c', 'dependencies': OrderedDict()}
+[0.010352] (fxos8701cq) JobQueued: {'identifier': 'fxos8701cq', 'dependencies': OrderedDict()}
+[0.010369] (ghst_rc) JobQueued: {'identifier': 'ghst_rc', 'dependencies': OrderedDict()}
+[0.010385] (gimbal) JobQueued: {'identifier': 'gimbal', 'dependencies': OrderedDict()}
+[0.010402] (gpio) JobQueued: {'identifier': 'gpio', 'dependencies': OrderedDict()}
+[0.010419] (gps) JobQueued: {'identifier': 'gps', 'dependencies': OrderedDict()}
+[0.010436] (gy_us42) JobQueued: {'identifier': 'gy_us42', 'dependencies': OrderedDict()}
+[0.010452] (gyro_calibration) JobQueued: {'identifier': 'gyro_calibration', 'dependencies': OrderedDict()}
+[0.010469] (gyro_fft) JobQueued: {'identifier': 'gyro_fft', 'dependencies': OrderedDict()}
+[0.010486] (gz_bridge) JobQueued: {'identifier': 'gz_bridge', 'dependencies': OrderedDict()}
+[0.010502] (gz_msgs) JobQueued: {'identifier': 'gz_msgs', 'dependencies': OrderedDict()}
+[0.010535] (hardfault_log) JobQueued: {'identifier': 'hardfault_log', 'dependencies': OrderedDict()}
+[0.010559] (hardfault_stream) JobQueued: {'identifier': 'hardfault_stream', 'dependencies': OrderedDict()}
+[0.010576] (heater) JobQueued: {'identifier': 'heater', 'dependencies': OrderedDict()}
+[0.010593] (hello) JobQueued: {'identifier': 'hello', 'dependencies': OrderedDict()}
+[0.010609] (hist) JobQueued: {'identifier': 'hist', 'dependencies': OrderedDict()}
+[0.010626] (i2c_launcher) JobQueued: {'identifier': 'i2c_launcher', 'dependencies': OrderedDict()}
+[0.010665] (i2cdetect) JobQueued: {'identifier': 'i2cdetect', 'dependencies': OrderedDict()}
+[0.010682] (iam20680hp) JobQueued: {'identifier': 'iam20680hp', 'dependencies': OrderedDict()}
+[0.010699] (icm20602) JobQueued: {'identifier': 'icm20602', 'dependencies': OrderedDict()}
+[0.010715] (icm20608g) JobQueued: {'identifier': 'icm20608g', 'dependencies': OrderedDict()}
+[0.010732] (icm20649) JobQueued: {'identifier': 'icm20649', 'dependencies': OrderedDict()}
+[0.010748] (icm20689) JobQueued: {'identifier': 'icm20689', 'dependencies': OrderedDict()}
+[0.010764] (icm20948) JobQueued: {'identifier': 'icm20948', 'dependencies': OrderedDict()}
+[0.010780] (icm40609d) JobQueued: {'identifier': 'icm40609d', 'dependencies': OrderedDict()}
+[0.010797] (icm42605) JobQueued: {'identifier': 'icm42605', 'dependencies': OrderedDict()}
+[0.010831] (icm42670p) JobQueued: {'identifier': 'icm42670p', 'dependencies': OrderedDict()}
+[0.010852] (icm42688p) JobQueued: {'identifier': 'icm42688p', 'dependencies': OrderedDict()}
+[0.010868] (icm45686) JobQueued: {'identifier': 'icm45686', 'dependencies': OrderedDict()}
+[0.010885] (iim42652) JobQueued: {'identifier': 'iim42652', 'dependencies': OrderedDict()}
+[0.010902] (iim42653) JobQueued: {'identifier': 'iim42653', 'dependencies': OrderedDict()}
+[0.010918] (ilabs) JobQueued: {'identifier': 'ilabs', 'dependencies': OrderedDict()}
+[0.010934] (ina220) JobQueued: {'identifier': 'ina220', 'dependencies': OrderedDict()}
+[0.010951] (ina226) JobQueued: {'identifier': 'ina226', 'dependencies': OrderedDict()}
+[0.010968] (ina228) JobQueued: {'identifier': 'ina228', 'dependencies': OrderedDict()}
+[0.010985] (ina238) JobQueued: {'identifier': 'ina238', 'dependencies': OrderedDict()}
+[0.011001] (internal_combustion_engine_control) JobQueued: {'identifier': 'internal_combustion_engine_control', 'dependencies': OrderedDict()}
+[0.011018] (io_bypass_control) JobQueued: {'identifier': 'io_bypass_control', 'dependencies': OrderedDict()}
+[0.011035] (irlock) JobQueued: {'identifier': 'irlock', 'dependencies': OrderedDict()}
+[0.011051] (l3gd20) JobQueued: {'identifier': 'l3gd20', 'dependencies': OrderedDict()}
+[0.011068] (land_detector) JobQueued: {'identifier': 'land_detector', 'dependencies': OrderedDict()}
+[0.011084] (landing_target_estimator) JobQueued: {'identifier': 'landing_target_estimator', 'dependencies': OrderedDict()}
+[0.011101] (launch_kmod) JobQueued: {'identifier': 'launch_kmod', 'dependencies': OrderedDict()}
+[0.011118] (led_control) JobQueued: {'identifier': 'led_control', 'dependencies': OrderedDict()}
+[0.011134] (leddar_one) JobQueued: {'identifier': 'leddar_one', 'dependencies': OrderedDict()}
+[0.011151] (lib) JobQueued: {'identifier': 'lib', 'dependencies': OrderedDict()}
+[0.011167] (lights) JobQueued: {'identifier': 'lights', 'dependencies': OrderedDict()}
+[0.011184] (lightware_laser_i2c) JobQueued: {'identifier': 'lightware_laser_i2c', 'dependencies': OrderedDict()}
+[0.011200] (lightware_laser_serial) JobQueued: {'identifier': 'lightware_laser_serial', 'dependencies': OrderedDict()}
+[0.011217] (lightware_sf45_serial) JobQueued: {'identifier': 'lightware_sf45_serial', 'dependencies': OrderedDict()}
+[0.011233] (linux_pwm_out) JobQueued: {'identifier': 'linux_pwm_out', 'dependencies': OrderedDict()}
+[0.011250] (ll40ls) JobQueued: {'identifier': 'll40ls', 'dependencies': OrderedDict()}
+[0.011266] (ll40ls_pwm) JobQueued: {'identifier': 'll40ls_pwm', 'dependencies': OrderedDict()}
+[0.011283] (load_mon) JobQueued: {'identifier': 'load_mon', 'dependencies': OrderedDict()}
+[0.011299] (local_position_estimator) JobQueued: {'identifier': 'local_position_estimator', 'dependencies': OrderedDict()}
+[0.011316] (logger) JobQueued: {'identifier': 'logger', 'dependencies': OrderedDict()}
+[0.011331] (lsm303d) JobQueued: {'identifier': 'lsm303d', 'dependencies': OrderedDict()}
+[0.011347] (lsm9ds1) JobQueued: {'identifier': 'lsm9ds1', 'dependencies': OrderedDict()}
+[0.011363] (mag_bias_estimator) JobQueued: {'identifier': 'mag_bias_estimator', 'dependencies': OrderedDict()}
+[0.011378] (magnetometer) JobQueued: {'identifier': 'magnetometer', 'dependencies': OrderedDict()}
+[0.011394] (manual_control) JobQueued: {'identifier': 'manual_control', 'dependencies': OrderedDict()}
+[0.011409] (mappydot) JobQueued: {'identifier': 'mappydot', 'dependencies': OrderedDict()}
+[0.011424] (matlab_csv_serial) JobQueued: {'identifier': 'matlab_csv_serial', 'dependencies': OrderedDict()}
+[0.011440] (mavlink) JobQueued: {'identifier': 'mavlink', 'dependencies': OrderedDict()}
+[0.011455] (mb12xx) JobQueued: {'identifier': 'mb12xx', 'dependencies': OrderedDict()}
+[0.011471] (mc_att_control) JobQueued: {'identifier': 'mc_att_control', 'dependencies': OrderedDict()}
+[0.011486] (mc_autotune_attitude_control) JobQueued: {'identifier': 'mc_autotune_attitude_control', 'dependencies': OrderedDict()}
+[0.011502] (mc_hover_thrust_estimator) JobQueued: {'identifier': 'mc_hover_thrust_estimator', 'dependencies': OrderedDict()}
+[0.011530] (mc_nn_control) JobQueued: {'identifier': 'mc_nn_control', 'dependencies': OrderedDict()}
+[0.011557] (mc_pos_control) JobQueued: {'identifier': 'mc_pos_control', 'dependencies': OrderedDict()}
+[0.011573] (mc_raptor) JobQueued: {'identifier': 'mc_raptor', 'dependencies': OrderedDict()}
+[0.011589] (mc_rate_control) JobQueued: {'identifier': 'mc_rate_control', 'dependencies': OrderedDict()}
+[0.011604] (mcp23009) JobQueued: {'identifier': 'mcp23009', 'dependencies': OrderedDict()}
+[0.011620] (mcp23017) JobQueued: {'identifier': 'mcp23017', 'dependencies': OrderedDict()}
+[0.011635] (mcp9808) JobQueued: {'identifier': 'mcp9808', 'dependencies': OrderedDict()}
+[0.011650] (mft) JobQueued: {'identifier': 'mft', 'dependencies': OrderedDict()}
+[0.011666] (mft_cfg) JobQueued: {'identifier': 'mft_cfg', 'dependencies': OrderedDict()}
+[0.011681] (microbench) JobQueued: {'identifier': 'microbench', 'dependencies': OrderedDict()}
+[0.011696] (microstrain) JobQueued: {'identifier': 'microstrain', 'dependencies': OrderedDict()}
+[0.011712] (mpu6000) JobQueued: {'identifier': 'mpu6000', 'dependencies': OrderedDict()}
+[0.011727] (mpu6500) JobQueued: {'identifier': 'mpu6500', 'dependencies': OrderedDict()}
+[0.011743] (mpu9250) JobQueued: {'identifier': 'mpu9250', 'dependencies': OrderedDict()}
+[0.011759] (ms4515) JobQueued: {'identifier': 'ms4515', 'dependencies': OrderedDict()}
+[0.011775] (ms4525do) JobQueued: {'identifier': 'ms4525do', 'dependencies': OrderedDict()}
+[0.011790] (ms5525dso) JobQueued: {'identifier': 'ms5525dso', 'dependencies': OrderedDict()}
+[0.011806] (msp_osd) JobQueued: {'identifier': 'msp_osd', 'dependencies': OrderedDict()}
+[0.011821] (mtd) JobQueued: {'identifier': 'mtd', 'dependencies': OrderedDict()}
+[0.011837] (navigator) JobQueued: {'identifier': 'navigator', 'dependencies': OrderedDict()}
+[0.011852] (netman) JobQueued: {'identifier': 'netman', 'dependencies': OrderedDict()}
+[0.011867] (nshterm) JobQueued: {'identifier': 'nshterm', 'dependencies': OrderedDict()}
+[0.011883] (offboard_rl) JobQueued: {'identifier': 'offboard_rl', 'dependencies': OrderedDict()}
+[0.011898] (paa3905) JobQueued: {'identifier': 'paa3905', 'dependencies': OrderedDict()}
+[0.011913] (param) JobQueued: {'identifier': 'param', 'dependencies': OrderedDict()}
+[0.011929] (paw3902) JobQueued: {'identifier': 'paw3902', 'dependencies': OrderedDict()}
+[0.011944] (payload_deliverer) JobQueued: {'identifier': 'payload_deliverer', 'dependencies': OrderedDict()}
+[0.011960] (pca9685_pwm_out) JobQueued: {'identifier': 'pca9685_pwm_out', 'dependencies': OrderedDict()}
+[0.011975] (pcf8583) JobQueued: {'identifier': 'pcf8583', 'dependencies': OrderedDict()}
+[0.011990] (perf) JobQueued: {'identifier': 'perf', 'dependencies': OrderedDict()}
+[0.012006] (pga460) JobQueued: {'identifier': 'pga460', 'dependencies': OrderedDict()}
+[0.012021] (pmw3901) JobQueued: {'identifier': 'pmw3901', 'dependencies': OrderedDict()}
+[0.012037] (posix) JobQueued: {'identifier': 'posix', 'dependencies': OrderedDict()}
+[0.012052] (pps_capture) JobQueued: {'identifier': 'pps_capture', 'dependencies': OrderedDict()}
+[0.012067] (pwm_input) JobQueued: {'identifier': 'pwm_input', 'dependencies': OrderedDict()}
+[0.012084] (pwm_out) JobQueued: {'identifier': 'pwm_out', 'dependencies': OrderedDict()}
+[0.012099] (pwm_out_sim) JobQueued: {'identifier': 'pwm_out_sim', 'dependencies': OrderedDict()}
+[0.012115] (px4) JobQueued: {'identifier': 'px4', 'dependencies': OrderedDict()}
+[0.012130] (px4_gz_plugins) JobQueued: {'identifier': 'px4_gz_plugins', 'dependencies': OrderedDict()}
+[0.012146] (px4_mavlink_debug) JobQueued: {'identifier': 'px4_mavlink_debug', 'dependencies': OrderedDict()}
+[0.012161] (px4_simple_app) JobQueued: {'identifier': 'px4_simple_app', 'dependencies': OrderedDict()}
+[0.012177] (px4flow) JobQueued: {'identifier': 'px4flow', 'dependencies': OrderedDict()}
+[0.012192] (px4io) JobQueued: {'identifier': 'px4io', 'dependencies': OrderedDict()}
+[0.012208] (px4iofirmware) JobQueued: {'identifier': 'px4iofirmware', 'dependencies': OrderedDict()}
+[0.012235] (qurt) JobQueued: {'identifier': 'qurt', 'dependencies': OrderedDict()}
+[0.012251] (rc_input) JobQueued: {'identifier': 'rc_input', 'dependencies': OrderedDict()}
+[0.012267] (rc_update) JobQueued: {'identifier': 'rc_update', 'dependencies': OrderedDict()}
+[0.012282] (reboot) JobQueued: {'identifier': 'reboot', 'dependencies': OrderedDict()}
+[0.012298] (reflect) JobQueued: {'identifier': 'reflect', 'dependencies': OrderedDict()}
+[0.012314] (replay) JobQueued: {'identifier': 'replay', 'dependencies': OrderedDict()}
+[0.012329] (roboclaw) JobQueued: {'identifier': 'roboclaw', 'dependencies': OrderedDict()}
+[0.012344] (rover_ackermann) JobQueued: {'identifier': 'rover_ackermann', 'dependencies': OrderedDict()}
+[0.012360] (rover_differential) JobQueued: {'identifier': 'rover_differential', 'dependencies': OrderedDict()}
+[0.012375] (rover_mecanum) JobQueued: {'identifier': 'rover_mecanum', 'dependencies': OrderedDict()}
+[0.012391] (rpi_rc_in) JobQueued: {'identifier': 'rpi_rc_in', 'dependencies': OrderedDict()}
+[0.012406] (rpm_capture) JobQueued: {'identifier': 'rpm_capture', 'dependencies': OrderedDict()}
+[0.012422] (rpm_simulator) JobQueued: {'identifier': 'rpm_simulator', 'dependencies': OrderedDict()}
+[0.012437] (safety_button) JobQueued: {'identifier': 'safety_button', 'dependencies': OrderedDict()}
+[0.012453] (sbgecom) JobQueued: {'identifier': 'sbgecom', 'dependencies': OrderedDict()}
+[0.012468] (sbus_rc) JobQueued: {'identifier': 'sbus_rc', 'dependencies': OrderedDict()}
+[0.012484] (sch16t) JobQueued: {'identifier': 'sch16t', 'dependencies': OrderedDict()}
+[0.012499] (sd_bench) JobQueued: {'identifier': 'sd_bench', 'dependencies': OrderedDict()}
+[0.012520] (sd_stress) JobQueued: {'identifier': 'sd_stress', 'dependencies': OrderedDict()}
+[0.012687] (sdp3x) JobQueued: {'identifier': 'sdp3x', 'dependencies': OrderedDict()}
+[0.012704] (sensor_agp_sim) JobQueued: {'identifier': 'sensor_agp_sim', 'dependencies': OrderedDict()}
+[0.012720] (sensor_airspeed_sim) JobQueued: {'identifier': 'sensor_airspeed_sim', 'dependencies': OrderedDict()}
+[0.012736] (sensor_baro_sim) JobQueued: {'identifier': 'sensor_baro_sim', 'dependencies': OrderedDict()}
+[0.012751] (sensor_gps_sim) JobQueued: {'identifier': 'sensor_gps_sim', 'dependencies': OrderedDict()}
+[0.012767] (sensor_mag_sim) JobQueued: {'identifier': 'sensor_mag_sim', 'dependencies': OrderedDict()}
+[0.012782] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.012797] (septentrio) JobQueued: {'identifier': 'septentrio', 'dependencies': OrderedDict()}
+[0.012813] (serial_passthru) JobQueued: {'identifier': 'serial_passthru', 'dependencies': OrderedDict()}
+[0.012828] (serial_test) JobQueued: {'identifier': 'serial_test', 'dependencies': OrderedDict()}
+[0.012844] (sht3x) JobQueued: {'identifier': 'sht3x', 'dependencies': OrderedDict()}
+[0.012861] (shutdown) JobQueued: {'identifier': 'shutdown', 'dependencies': OrderedDict()}
+[0.012878] (simulator_mavlink) JobQueued: {'identifier': 'simulator_mavlink', 'dependencies': OrderedDict()}
+[0.012896] (simulator_sih) JobQueued: {'identifier': 'simulator_sih', 'dependencies': OrderedDict()}
+[0.012912] (slpi) JobQueued: {'identifier': 'slpi', 'dependencies': OrderedDict()}
+[0.012928] (spacecraft) JobQueued: {'identifier': 'spacecraft', 'dependencies': OrderedDict()}
+[0.012944] (srf02) JobQueued: {'identifier': 'srf02', 'dependencies': OrderedDict()}
+[0.012963] (srf05) JobQueued: {'identifier': 'srf05', 'dependencies': OrderedDict()}
+[0.012980] (stub_keystore) JobQueued: {'identifier': 'stub_keystore', 'dependencies': OrderedDict()}
+[0.012997] (sw_crypto) JobQueued: {'identifier': 'sw_crypto', 'dependencies': OrderedDict()}
+[0.013013] (system_power_simulator) JobQueued: {'identifier': 'system_power_simulator', 'dependencies': OrderedDict()}
+[0.013029] (system_time) JobQueued: {'identifier': 'system_time', 'dependencies': OrderedDict()}
+[0.013046] (tap_esc) JobQueued: {'identifier': 'tap_esc', 'dependencies': OrderedDict()}
+[0.013061] (tattu_can) JobQueued: {'identifier': 'tattu_can', 'dependencies': OrderedDict()}
+[0.013130] (telemetry) JobQueued: {'identifier': 'telemetry', 'dependencies': OrderedDict()}
+[0.013147] (temperature_compensation) JobQueued: {'identifier': 'temperature_compensation', 'dependencies': OrderedDict()}
+[0.013164] (template_module) JobQueued: {'identifier': 'template_module', 'dependencies': OrderedDict()}
+[0.013180] (teraranger) JobQueued: {'identifier': 'teraranger', 'dependencies': OrderedDict()}
+[0.013195] (test_ppm) JobQueued: {'identifier': 'test_ppm', 'dependencies': OrderedDict()}
+[0.013211] (tests) JobQueued: {'identifier': 'tests', 'dependencies': OrderedDict()}
+[0.013227] (tf02pro) JobQueued: {'identifier': 'tf02pro', 'dependencies': OrderedDict()}
+[0.013242] (tfmini) JobQueued: {'identifier': 'tfmini', 'dependencies': OrderedDict()}
+[0.013258] (thoneflow) JobQueued: {'identifier': 'thoneflow', 'dependencies': OrderedDict()}
+[0.013273] (time_persistor) JobQueued: {'identifier': 'time_persistor', 'dependencies': OrderedDict()}
+[0.013288] (tla2528) JobQueued: {'identifier': 'tla2528', 'dependencies': OrderedDict()}
+[0.013304] (tmp102) JobQueued: {'identifier': 'tmp102', 'dependencies': OrderedDict()}
+[0.013320] (tone_alarm) JobQueued: {'identifier': 'tone_alarm', 'dependencies': OrderedDict()}
+[0.013335] (top) JobQueued: {'identifier': 'top', 'dependencies': OrderedDict()}
+[0.013350] (topic_listener) JobQueued: {'identifier': 'topic_listener', 'dependencies': OrderedDict()}
+[0.013366] (transponder) JobQueued: {'identifier': 'transponder', 'dependencies': OrderedDict()}
+[0.013381] (tune_control) JobQueued: {'identifier': 'tune_control', 'dependencies': OrderedDict()}
+[0.013397] (uavcan) JobQueued: {'identifier': 'uavcan', 'dependencies': OrderedDict()}
+[0.013412] (uavcannode) JobQueued: {'identifier': 'uavcannode', 'dependencies': OrderedDict()}
+[0.013428] (ulanding_radar) JobQueued: {'identifier': 'ulanding_radar', 'dependencies': OrderedDict()}
+[0.013444] (uorb) JobQueued: {'identifier': 'uorb', 'dependencies': OrderedDict()}
+[0.013460] (usb_connected) JobQueued: {'identifier': 'usb_connected', 'dependencies': OrderedDict()}
+[0.013476] (uuv_att_control) JobQueued: {'identifier': 'uuv_att_control', 'dependencies': OrderedDict()}
+[0.013491] (uuv_pos_control) JobQueued: {'identifier': 'uuv_pos_control', 'dependencies': OrderedDict()}
+[0.013512] (uwb) JobQueued: {'identifier': 'uwb', 'dependencies': OrderedDict()}
+[0.013539] (uxrce_dds_client) JobQueued: {'identifier': 'uxrce_dds_client', 'dependencies': OrderedDict()}
+[0.013557] (vectornav) JobQueued: {'identifier': 'vectornav', 'dependencies': OrderedDict()}
+[0.013573] (ver) JobQueued: {'identifier': 'ver', 'dependencies': OrderedDict()}
+[0.013589] (vertiq_io) JobQueued: {'identifier': 'vertiq_io', 'dependencies': OrderedDict()}
+[0.013605] (vl53l0x) JobQueued: {'identifier': 'vl53l0x', 'dependencies': OrderedDict()}
+[0.013621] (vl53l1x) JobQueued: {'identifier': 'vl53l1x', 'dependencies': OrderedDict()}
+[0.013637] (voxl2_io) JobQueued: {'identifier': 'voxl2_io', 'dependencies': OrderedDict()}
+[0.013653] (voxl_esc) JobQueued: {'identifier': 'voxl_esc', 'dependencies': OrderedDict()}
+[0.013669] (voxlpm) JobQueued: {'identifier': 'voxlpm', 'dependencies': OrderedDict()}
+[0.013687] (vtol_att_control) JobQueued: {'identifier': 'vtol_att_control', 'dependencies': OrderedDict()}
+[0.013704] (vtx) JobQueued: {'identifier': 'vtx', 'dependencies': OrderedDict()}
+[0.013721] (vtxtable) JobQueued: {'identifier': 'vtxtable', 'dependencies': OrderedDict()}
+[0.013740] (work_item) JobQueued: {'identifier': 'work_item', 'dependencies': OrderedDict()}
+[0.013760] (work_queue) JobQueued: {'identifier': 'work_queue', 'dependencies': OrderedDict()}
+[0.013779] (zenoh) JobQueued: {'identifier': 'zenoh', 'dependencies': OrderedDict()}
+[0.013800] (actuator_test) JobStarted: {'identifier': 'actuator_test'}
+[0.019203] (adis16448) JobStarted: {'identifier': 'adis16448'}
+[0.023590] (adis16470) JobStarted: {'identifier': 'adis16470'}
+[0.025784] (adis16477) JobStarted: {'identifier': 'adis16477'}
+[0.028604] (adis16497) JobStarted: {'identifier': 'adis16497'}
+[0.031446] (adis16507) JobStarted: {'identifier': 'adis16507'}
+[0.033423] (ads1115) JobStarted: {'identifier': 'ads1115'}
+[0.040283] (ads7953) JobStarted: {'identifier': 'ads7953'}
+[0.043444] (airship_att_control) JobStarted: {'identifier': 'airship_att_control'}
+[0.045337] (airspeed_selector) JobStarted: {'identifier': 'airspeed_selector'}
+[0.048192] (apps) JobStarted: {'identifier': 'apps'}
+[0.052326] (asp5033) JobStarted: {'identifier': 'asp5033'}
+[0.058074] (actuator_test) JobProgress: {'identifier': 'actuator_test', 'progress': 'cmake'}
+[0.058375] (actuator_test) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/systemcmds/actuator_test', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/actuator_test'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/actuator_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/actuator_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.060578] (adis16448) JobProgress: {'identifier': 'adis16448', 'progress': 'cmake'}
+[0.061107] (adis16448) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/drivers/imu/analog_devices/adis16448', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/adis16448'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16448', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16448'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.062566] (adis16470) JobProgress: {'identifier': 'adis16470', 'progress': 'cmake'}
+[0.062749] (adis16470) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/drivers/imu/analog_devices/adis16470', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/adis16470'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16470', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16470'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.066062] (adis16477) JobProgress: {'identifier': 'adis16477', 'progress': 'cmake'}
+[0.066552] (adis16477) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/drivers/imu/analog_devices/adis16477', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/adis16477'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16477', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16477'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.072951] (adis16497) JobProgress: {'identifier': 'adis16497', 'progress': 'cmake'}
+[0.073049] (adis16497) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/drivers/imu/analog_devices/adis16497', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/adis16497'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16497', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16497'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.075381] (adis16507) JobProgress: {'identifier': 'adis16507', 'progress': 'cmake'}
+[0.077418] (adis16507) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/drivers/imu/analog_devices/adis16507', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/adis16507'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16507', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16507'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.081285] (ads1115) JobProgress: {'identifier': 'ads1115', 'progress': 'cmake'}
+[0.081867] (ads1115) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/drivers/adc/ads1115', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/ads1115'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/ads1115', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/ads1115'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.085062] (ads7953) JobProgress: {'identifier': 'ads7953', 'progress': 'cmake'}
+[0.086163] (ads7953) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/drivers/adc/ads7953', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/ads7953'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/ads7953', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/ads7953'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.089053] (airship_att_control) JobProgress: {'identifier': 'airship_att_control', 'progress': 'cmake'}
+[0.090417] (airship_att_control) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/modules/airship_att_control', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/airship_att_control'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/airship_att_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/airship_att_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.091698] (airspeed_selector) JobProgress: {'identifier': 'airspeed_selector', 'progress': 'cmake'}
+[0.092923] (airspeed_selector) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/modules/airspeed_selector', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/airspeed_selector'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/airspeed_selector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/airspeed_selector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.096997] (apps) JobProgress: {'identifier': 'apps', 'progress': 'cmake'}
+[0.097038] (apps) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/modules/muorb/apps', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/apps'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/apps', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/apps'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099579] (-) TimerEvent: {}
+[0.100496] (actuator_test) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.101384] (actuator_test) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.101524] (actuator_test) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.101775] (actuator_test) StderrLine: {'line': b'  code such as\n'}
+[0.101867] (actuator_test) StderrLine: {'line': b'\n'}
+[0.101942] (actuator_test) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.102015] (actuator_test) StderrLine: {'line': b'\n'}
+[0.102088] (actuator_test) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.102165] (actuator_test) StderrLine: {'line': b'\n'}
+[0.102240] (actuator_test) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.102312] (actuator_test) StderrLine: {'line': b'  line.\n'}
+[0.102375] (actuator_test) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.102440] (actuator_test) StderrLine: {'line': b'\x1b[0m\n'}
+[0.102516] (adis16448) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.102632] (adis16448) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.102704] (adis16448) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.102772] (adis16448) StderrLine: {'line': b'  code such as\n'}
+[0.102846] (adis16448) StderrLine: {'line': b'\n'}
+[0.102914] (adis16448) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.102984] (adis16448) StderrLine: {'line': b'\n'}
+[0.103057] (adis16448) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.103128] (adis16448) StderrLine: {'line': b'\n'}
+[0.103198] (adis16448) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.103271] (adis16448) StderrLine: {'line': b'  line.\n'}
+[0.103342] (adis16448) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.103403] (adis16448) StderrLine: {'line': b'\x1b[0m\n'}
+[0.105371] (adis16470) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.105573] (adis16470) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.105653] (adis16470) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.105726] (adis16470) StderrLine: {'line': b'  code such as\n'}
+[0.105800] (adis16470) StderrLine: {'line': b'\n'}
+[0.105871] (adis16470) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.105950] (adis16470) StderrLine: {'line': b'\n'}
+[0.106026] (adis16470) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.106094] (adis16470) StderrLine: {'line': b'\n'}
+[0.106158] (adis16470) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.106223] (adis16470) StderrLine: {'line': b'  line.\n'}
+[0.106291] (adis16470) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.106361] (adis16470) StderrLine: {'line': b'\x1b[0m\n'}
+[0.108283] (adis16477) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.108518] (adis16477) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.108619] (adis16477) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.108702] (adis16477) StderrLine: {'line': b'  code such as\n'}
+[0.109843] (adis16477) StderrLine: {'line': b'\n'}
+[0.109953] (adis16477) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.110032] (adis16477) StderrLine: {'line': b'\n'}
+[0.110125] (adis16477) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.110208] (adis16477) StderrLine: {'line': b'\n'}
+[0.110287] (adis16477) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.110364] (adis16477) StderrLine: {'line': b'  line.\n'}
+[0.110437] (adis16477) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.110502] (adis16477) StderrLine: {'line': b'\x1b[0m\n'}
+[0.111377] (adis16497) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.111526] (adis16497) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.111879] (adis16497) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.111957] (adis16497) StderrLine: {'line': b'  code such as\n'}
+[0.112026] (adis16497) StderrLine: {'line': b'\n'}
+[0.112092] (adis16497) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.112155] (adis16497) StderrLine: {'line': b'\n'}
+[0.112214] (adis16497) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.112273] (adis16497) StderrLine: {'line': b'\n'}
+[0.112333] (adis16497) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.112393] (adis16497) StderrLine: {'line': b'  line.\n'}
+[0.112453] (adis16497) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.112520] (adis16497) StderrLine: {'line': b'\x1b[0m\n'}
+[0.115241] (adis16507) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.115689] (adis16507) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.115804] (adis16507) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.115889] (adis16507) StderrLine: {'line': b'  code such as\n'}
+[0.115967] (adis16507) StderrLine: {'line': b'\n'}
+[0.116040] (adis16507) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.116115] (adis16507) StderrLine: {'line': b'\n'}
+[0.116191] (adis16507) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.116261] (adis16507) StderrLine: {'line': b'\n'}
+[0.116333] (adis16507) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.116403] (adis16507) StderrLine: {'line': b'  line.\n'}
+[0.116473] (adis16507) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.116560] (adis16507) StderrLine: {'line': b'\x1b[0m\n'}
+[0.117604] (ads1115) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.117838] (ads1115) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.117943] (ads1115) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.118025] (ads1115) StderrLine: {'line': b'  code such as\n'}
+[0.118098] (ads1115) StderrLine: {'line': b'\n'}
+[0.118170] (ads1115) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.118244] (ads1115) StderrLine: {'line': b'\n'}
+[0.118317] (ads1115) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.118389] (ads1115) StderrLine: {'line': b'\n'}
+[0.118457] (ads1115) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.118543] (ads1115) StderrLine: {'line': b'  line.\n'}
+[0.118627] (ads1115) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.118703] (ads1115) StderrLine: {'line': b'\x1b[0m\n'}
+[0.128714] (asp5033) JobProgress: {'identifier': 'asp5033', 'progress': 'cmake'}
+[0.128869] (ads7953) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.130852] (ads7953) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.131133] (ads7953) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.131247] (ads7953) StderrLine: {'line': b'  code such as\n'}
+[0.131344] (ads7953) StderrLine: {'line': b'\n'}
+[0.131436] (ads7953) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.131537] (ads7953) StderrLine: {'line': b'\n'}
+[0.131644] (ads7953) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.131731] (ads7953) StderrLine: {'line': b'\n'}
+[0.131820] (ads7953) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.131910] (ads7953) StderrLine: {'line': b'  line.\n'}
+[0.131994] (ads7953) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.132066] (ads7953) StderrLine: {'line': b'\x1b[0m\n'}
+[0.132147] (asp5033) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/drivers/differential_pressure/asp5033', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/asp5033'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/asp5033', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/asp5033'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.144360] (adis16448) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.145200] (actuator_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.147574] (adis16497) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.149906] (adis16470) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.150988] (adis16507) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.156994] (adis16477) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.158206] (ads1115) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.163861] (ads7953) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200588] (-) TimerEvent: {}
+[0.217598] (adis16448) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.221134] (adis16470) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.221320] (adis16507) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.222686] (adis16497) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.225683] (actuator_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.226102] (adis16448) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.229299] (adis16497) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.230485] (adis16470) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.237590] (adis16507) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.237860] (adis16477) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.238961] (actuator_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.244704] (ads7953) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.245065] (adis16477) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.253389] (ads7953) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.257676] (ads1115) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.264727] (ads1115) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301684] (-) TimerEvent: {}
+[0.310125] (adis16497) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.316197] (actuator_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.316514] (adis16448) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.321163] (adis16497) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.322404] (adis16497) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.327989] (adis16497) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.328239] (actuator_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.328368] (actuator_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.331487] (actuator_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.331772] (adis16470) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.331878] (adis16448) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.331974] (adis16448) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.332054] (adis16448) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.332211] (adis16497) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.332545] (adis16477) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.333855] (actuator_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.335660] (adis16507) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.339703] (adis16448) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.341676] (adis16477) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.341897] (adis16477) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.342080] (adis16477) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.345898] (adis16470) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.346184] (adis16477) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.346347] (adis16470) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.346630] (adis16470) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.347107] (adis16507) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.347748] (adis16507) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.348470] (ads7953) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.348903] (adis16507) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.353388] (adis16507) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.353639] (adis16470) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.357622] (ads1115) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.359150] (ads7953) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.359345] (ads7953) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.359434] (ads7953) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.364653] (ads7953) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.368660] (ads1115) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.368929] (ads1115) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.369496] (ads1115) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.373728] (ads1115) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401802] (-) TimerEvent: {}
+[0.431132] (actuator_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.441329] (adis16497) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.447453] (adis16448) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.450386] (actuator_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.451520] (actuator_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.451780] (adis16507) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.454721] (actuator_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.455002] (actuator_test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.455070] (actuator_test) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/actuator_test/CMakeFiles/CMakeOutput.log".\n'}
+[0.455117] (actuator_test) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (px4_add_module):\n'}
+[0.455170] (actuator_test) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.455215] (actuator_test) StderrLine: {'line': b'\n'}
+[0.455258] (actuator_test) StderrLine: {'line': b'\x1b[0m\n'}
+[0.455300] (actuator_test) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.455341] (actuator_test) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.455381] (actuator_test) StderrLine: {'line': b'\n'}
+[0.455419] (actuator_test) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.455460] (actuator_test) StderrLine: {'line': b'\n'}
+[0.455501] (actuator_test) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.455563] (actuator_test) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.455605] (actuator_test) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.455647] (actuator_test) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.455686] (actuator_test) StderrLine: {'line': b'\x1b[0m\n'}
+[0.456417] (adis16497) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.456788] (adis16477) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.457053] (adis16448) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.457598] (adis16448) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.457883] (adis16497) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.457976] (adis16497) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.458102] (adis16448) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.458721] (airship_att_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.458866] (airship_att_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.458926] (airship_att_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.458985] (airship_att_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.459039] (airship_att_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.459086] (airship_att_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.459135] (airship_att_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.459188] (airship_att_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.459895] (adis16497) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.460016] (adis16497) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/adis16497/CMakeFiles/CMakeOutput.log".\n'}
+[0.460121] (adis16448) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (px4_add_module):\n'}
+[0.460925] (adis16448) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.461086] (adis16448) StderrLine: {'line': b'\n'}
+[0.461149] (adis16448) StderrLine: {'line': b'\x1b[0m\n'}
+[0.461200] (adis16470) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.461271] (adis16497) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (px4_add_module):\n'}
+[0.461333] (adis16497) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.461384] (adis16497) StderrLine: {'line': b'\n'}
+[0.461434] (adis16497) StderrLine: {'line': b'\x1b[0m\n'}
+[0.461480] (adis16497) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.461568] (adis16497) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.461619] (adis16497) StderrLine: {'line': b'\n'}
+[0.461663] (adis16497) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.461710] (adis16497) StderrLine: {'line': b'\n'}
+[0.461757] (adis16497) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.461804] (adis16497) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.461853] (adis16497) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.461901] (adis16497) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.461947] (adis16497) StderrLine: {'line': b'\x1b[0m\n'}
+[0.461994] (airship_att_control) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.462096] (airship_att_control) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.462148] (airship_att_control) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.462195] (airship_att_control) StderrLine: {'line': b'  code such as\n'}
+[0.462242] (airship_att_control) StderrLine: {'line': b'\n'}
+[0.462289] (airship_att_control) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.462332] (airship_att_control) StderrLine: {'line': b'\n'}
+[0.462377] (airship_att_control) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.462422] (airship_att_control) StderrLine: {'line': b'\n'}
+[0.462467] (airship_att_control) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.462518] (airship_att_control) StderrLine: {'line': b'  line.\n'}
+[0.462562] (airship_att_control) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.463722] (airship_att_control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.463886] (adis16448) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.464006] (adis16448) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.464093] (adis16448) StderrLine: {'line': b'\n'}
+[0.464169] (adis16448) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.464241] (adis16448) StderrLine: {'line': b'\n'}
+[0.464314] (adis16448) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.464391] (adis16448) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.464467] (adis16448) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.464560] (adis16448) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.464659] (adis16448) StderrLine: {'line': b'\x1b[0m\n'}
+[0.464747] (adis16448) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.464964] (adis16448) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/adis16448/CMakeFiles/CMakeOutput.log".\n'}
+[0.465044] (actuator_test) CommandEnded: {'returncode': 1}
+[0.465693] (actuator_test) JobEnded: {'identifier': 'actuator_test', 'rc': 1}
+[0.466286] (adis16477) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.466433] (adis16477) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.466983] (adis16477) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (px4_add_module):\n'}
+[0.469708] (adis16477) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.471805] (adis16477) StderrLine: {'line': b'\n'}
+[0.472679] (adis16477) StderrLine: {'line': b'\x1b[0m\n'}
+[0.472825] (adis16477) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.472930] (adis16477) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.473011] (adis16477) StderrLine: {'line': b'\n'}
+[0.473091] (adis16477) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.473220] (adis16477) StderrLine: {'line': b'\n'}
+[0.473286] (adis16477) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.473352] (adis16477) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.473420] (adis16477) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.473484] (adis16477) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.473741] (adis16477) StderrLine: {'line': b'\x1b[0m\n'}
+[0.473815] (adis16477) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.473897] (adis16477) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.473971] (adis16477) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/adis16477/CMakeFiles/CMakeOutput.log".\n'}
+[0.474039] (airspeed_selector) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.474152] (airspeed_selector) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.474230] (airspeed_selector) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.474313] (airspeed_selector) StderrLine: {'line': b'  code such as\n'}
+[0.474393] (airspeed_selector) StderrLine: {'line': b'\n'}
+[0.475059] (airspeed_selector) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.475176] (airspeed_selector) StderrLine: {'line': b'\n'}
+[0.475277] (airspeed_selector) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.475369] (airspeed_selector) StderrLine: {'line': b'\n'}
+[0.475459] (airspeed_selector) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.475632] (airspeed_selector) StderrLine: {'line': b'  line.\n'}
+[0.475730] (airspeed_selector) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.475828] (airspeed_selector) StderrLine: {'line': b'\x1b[0m\n'}
+[0.476089] (adis16448) JobEnded: {'identifier': 'adis16448', 'rc': 'SIGINT'}
+[0.476897] (adis16507) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.477028] (adis16507) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.477108] (adis16507) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.477185] (airspeed_selector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.477283] (airspeed_selector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.477356] (airspeed_selector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.477424] (airspeed_selector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.477492] (airspeed_selector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.477575] (airspeed_selector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.477646] (airspeed_selector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.477724] (airspeed_selector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.477789] (airspeed_selector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.477859] (adis16470) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.477948] (adis16470) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.478014] (adis16470) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.478077] (adis16470) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.478139] (adis16470) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/adis16470/CMakeFiles/CMakeOutput.log".\n'}
+[0.478206] (adis16470) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (px4_add_module):\n'}
+[0.478285] (adis16470) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.478357] (adis16470) StderrLine: {'line': b'\n'}
+[0.478433] (adis16470) StderrLine: {'line': b'\x1b[0m\n'}
+[0.478519] (adis16470) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.478613] (adis16470) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.478686] (adis16470) StderrLine: {'line': b'\n'}
+[0.478749] (adis16470) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.478808] (adis16470) StderrLine: {'line': b'\n'}
+[0.478865] (adis16470) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.478925] (adis16470) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.478985] (adis16470) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.479047] (adis16470) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.479110] (adis16470) StderrLine: {'line': b'\x1b[0m\n'}
+[0.479174] (apps) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.479279] (apps) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.479344] (apps) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.479404] (apps) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.479469] (apps) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.479544] (apps) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.479614] (apps) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.479683] (apps) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.479750] (adis16507) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.479826] (adis16507) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/adis16507/CMakeFiles/CMakeOutput.log".\n'}
+[0.479893] (adis16507) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (px4_add_module):\n'}
+[0.479962] (adis16507) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.480033] (adis16507) StderrLine: {'line': b'\n'}
+[0.480111] (adis16507) StderrLine: {'line': b'\x1b[0m\n'}
+[0.480191] (adis16507) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.480268] (adis16507) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.480344] (adis16507) StderrLine: {'line': b'\n'}
+[0.480429] (adis16507) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.480500] (adis16507) StderrLine: {'line': b'\n'}
+[0.480757] (adis16507) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.480818] (adis16507) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.480878] (adis16507) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.480941] (adis16507) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.481079] (adis16507) StderrLine: {'line': b'\x1b[0m\n'}
+[0.481157] (apps) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.481245] (apps) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.481312] (apps) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.481380] (apps) StderrLine: {'line': b'  code such as\n'}
+[0.481450] (apps) StderrLine: {'line': b'\n'}
+[0.481530] (apps) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.481610] (apps) StderrLine: {'line': b'\n'}
+[0.481676] (apps) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.481755] (apps) StderrLine: {'line': b'\n'}
+[0.481817] (apps) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.481888] (apps) StderrLine: {'line': b'  line.\n'}
+[0.481952] (apps) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.482019] (apps) StderrLine: {'line': b'\x1b[0m\n'}
+[0.482086] (adis16497) JobEnded: {'identifier': 'adis16497', 'rc': 'SIGINT'}
+[0.482591] (asp5033) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.482831] (asp5033) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.482965] (asp5033) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.483168] (asp5033) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.483303] (asp5033) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.483376] (asp5033) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.483460] (asp5033) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.483578] (asp5033) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.483658] (asp5033) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.483760] (asp5033) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.483842] (asp5033) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.483913] (asp5033) StderrLine: {'line': b'  code such as\n'}
+[0.483983] (asp5033) StderrLine: {'line': b'\n'}
+[0.484055] (asp5033) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.484126] (asp5033) StderrLine: {'line': b'\n'}
+[0.484190] (asp5033) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.484256] (asp5033) StderrLine: {'line': b'\n'}
+[0.484326] (asp5033) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.484394] (asp5033) StderrLine: {'line': b'  line.\n'}
+[0.484455] (asp5033) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.484657] (asp5033) StderrLine: {'line': b'\x1b[0m\n'}
+[0.485052] (adis16477) JobEnded: {'identifier': 'adis16477', 'rc': 'SIGINT'}
+[0.485402] (apps) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.485504] (ads7953) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.485601] (adis16507) JobEnded: {'identifier': 'adis16507', 'rc': 'SIGINT'}
+[0.485951] (adis16470) JobEnded: {'identifier': 'adis16470', 'rc': 'SIGINT'}
+[0.486600] (airspeed_selector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.486945] (airspeed_selector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.487020] (airspeed_selector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.487082] (ads1115) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.487160] (airspeed_selector) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.487232] (airspeed_selector) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/airspeed_selector/CMakeFiles/CMakeOutput.log".\n'}
+[0.487324] (airspeed_selector) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (px4_add_module):\n'}
+[0.487409] (airspeed_selector) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.487484] (airspeed_selector) StderrLine: {'line': b'\n'}
+[0.487716] (airspeed_selector) StderrLine: {'line': b'\x1b[0m\n'}
+[0.487791] (airspeed_selector) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.487860] (airspeed_selector) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.487928] (airspeed_selector) StderrLine: {'line': b'\n'}
+[0.487993] (airspeed_selector) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.488058] (airspeed_selector) StderrLine: {'line': b'\n'}
+[0.488122] (airspeed_selector) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.488188] (airspeed_selector) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.488255] (airspeed_selector) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.488319] (airspeed_selector) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.488381] (airspeed_selector) StderrLine: {'line': b'\x1b[0m\n'}
+[0.488441] (apps) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.488626] (apps) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.488835] (ads7953) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.489063] (ads7953) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.489145] (apps) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.489219] (apps) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (px4_add_module):\n'}
+[0.489320] (apps) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.489390] (apps) StderrLine: {'line': b'\n'}
+[0.489454] (apps) StderrLine: {'line': b'\x1b[0m\n'}
+[0.489522] (apps) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.489676] (apps) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.489749] (apps) StderrLine: {'line': b'\n'}
+[0.489819] (apps) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.489889] (apps) StderrLine: {'line': b'\n'}
+[0.489953] (apps) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.490018] (apps) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.490080] (apps) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.490145] (apps) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.490224] (apps) StderrLine: {'line': b'\x1b[0m\n'}
+[0.490295] (apps) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.490525] (apps) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/apps/CMakeFiles/CMakeOutput.log".\n'}
+[0.490630] (ads7953) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.490771] (ads7953) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (px4_add_module):\n'}
+[0.490917] (ads7953) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.490980] (ads7953) StderrLine: {'line': b'\n'}
+[0.491049] (ads7953) StderrLine: {'line': b'\x1b[0m\n'}
+[0.491127] (ads7953) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.491197] (ads7953) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.491269] (ads7953) StderrLine: {'line': b'\n'}
+[0.491337] (ads7953) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.491402] (ads7953) StderrLine: {'line': b'\n'}
+[0.491462] (ads7953) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.491915] (ads7953) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.492041] (ads7953) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.492117] (ads7953) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.492185] (ads7953) StderrLine: {'line': b'\x1b[0m\n'}
+[0.492248] (ads7953) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.492329] (ads7953) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/ads7953/CMakeFiles/CMakeOutput.log".\n'}
+[0.492399] (airspeed_selector) JobEnded: {'identifier': 'airspeed_selector', 'rc': 'SIGINT'}
+[0.492878] (apps) JobEnded: {'identifier': 'apps', 'rc': 'SIGINT'}
+[0.493141] (ads7953) JobEnded: {'identifier': 'ads7953', 'rc': 'SIGINT'}
+[0.493419] (ads1115) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.493522] (ads1115) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.493604] (asp5033) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.493687] (ads1115) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.494026] (ads1115) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (px4_add_module):\n'}
+[0.494156] (ads1115) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.494228] (ads1115) StderrLine: {'line': b'\n'}
+[0.494290] (ads1115) StderrLine: {'line': b'\x1b[0m\n'}
+[0.494347] (ads1115) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.494403] (ads1115) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.494462] (ads1115) StderrLine: {'line': b'\n'}
+[0.494531] (ads1115) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.494598] (ads1115) StderrLine: {'line': b'\n'}
+[0.494657] (ads1115) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.494732] (ads1115) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.494814] (ads1115) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.494906] (ads1115) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.494993] (ads1115) StderrLine: {'line': b'\x1b[0m\n'}
+[0.495075] (ads1115) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.495168] (ads1115) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/ads1115/CMakeFiles/CMakeOutput.log".\n'}
+[0.497941] (ads1115) JobEnded: {'identifier': 'ads1115', 'rc': 'SIGINT'}
+[0.501128] (asp5033) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.501366] (asp5033) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.501861] (-) TimerEvent: {}
+[0.502036] (asp5033) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.502790] (asp5033) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (px4_add_module):\n'}
+[0.502956] (asp5033) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.503024] (asp5033) StderrLine: {'line': b'\n'}
+[0.503084] (asp5033) StderrLine: {'line': b'\x1b[0m\n'}
+[0.503140] (asp5033) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.503196] (asp5033) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.503250] (asp5033) StderrLine: {'line': b'\n'}
+[0.503304] (asp5033) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.503359] (asp5033) StderrLine: {'line': b'\n'}
+[0.503412] (asp5033) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.503468] (asp5033) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.503555] (asp5033) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.503625] (asp5033) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.503681] (asp5033) StderrLine: {'line': b'\x1b[0m\n'}
+[0.503736] (asp5033) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.503798] (asp5033) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/asp5033/CMakeFiles/CMakeOutput.log".\n'}
+[0.506447] (asp5033) JobEnded: {'identifier': 'asp5033', 'rc': 'SIGINT'}
+[0.507303] (airship_att_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.514097] (airship_att_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.514305] (airship_att_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.514771] (airship_att_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.515524] (airship_att_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (px4_add_module):\n'}
+[0.515650] (airship_att_control) StderrLine: {'line': b'  Unknown CMake command "px4_add_module".\n'}
+[0.515708] (airship_att_control) StderrLine: {'line': b'\n'}
+[0.515763] (airship_att_control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.515817] (airship_att_control) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.515872] (airship_att_control) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.515928] (airship_att_control) StderrLine: {'line': b'\n'}
+[0.515983] (airship_att_control) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.516039] (airship_att_control) StderrLine: {'line': b'\n'}
+[0.516094] (airship_att_control) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.516151] (airship_att_control) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.516208] (airship_att_control) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.516264] (airship_att_control) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.516319] (airship_att_control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.516423] (airship_att_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.516517] (airship_att_control) StdoutLine: {'line': b'See also "/home/telemaque/Robotics_Lab/ros2_ws/build/airship_att_control/CMakeFiles/CMakeOutput.log".\n'}
+[0.518795] (airship_att_control) JobEnded: {'identifier': 'airship_att_control', 'rc': 'SIGINT'}
+[0.529726] (attitude_estimator_q) JobSkipped: {'identifier': 'attitude_estimator_q'}
+[0.529855] (atxxxx) JobSkipped: {'identifier': 'atxxxx'}
+[0.529884] (auav) JobSkipped: {'identifier': 'auav'}
+[0.529900] (auterion_autostarter) JobSkipped: {'identifier': 'auterion_autostarter'}
+[0.529912] (barometer) JobSkipped: {'identifier': 'barometer'}
+[0.529924] (batmon) JobSkipped: {'identifier': 'batmon'}
+[0.529935] (batt_smbus) JobSkipped: {'identifier': 'batt_smbus'}
+[0.529946] (battery_simulator) JobSkipped: {'identifier': 'battery_simulator'}
+[0.529958] (battery_status) JobSkipped: {'identifier': 'battery_status'}
+[0.529969] (bl_update) JobSkipped: {'identifier': 'bl_update'}
+[0.529980] (board_adc) JobSkipped: {'identifier': 'board_adc'}
+[0.529999] (bootloaders) JobSkipped: {'identifier': 'bootloaders'}
+[0.530023] (bosch) JobSkipped: {'identifier': 'bosch'}
+[0.530047] (broadcom) JobSkipped: {'identifier': 'broadcom'}
+[0.530074] (bsondump) JobSkipped: {'identifier': 'bsondump'}
+[0.530097] (camera_capture) JobSkipped: {'identifier': 'camera_capture'}
+[0.530121] (camera_feedback) JobSkipped: {'identifier': 'camera_feedback'}
+[0.530144] (camera_trigger) JobSkipped: {'identifier': 'camera_trigger'}
+[0.530160] (cdcacm_autostart) JobSkipped: {'identifier': 'cdcacm_autostart'}
+[0.530176] (cm8jl65) JobSkipped: {'identifier': 'cm8jl65'}
+[0.530192] (commander) JobSkipped: {'identifier': 'commander'}
+[0.530246] (control_allocator) JobSkipped: {'identifier': 'control_allocator'}
+[0.530268] (crsf_rc) JobSkipped: {'identifier': 'crsf_rc'}
+[0.530291] (cyphal) JobSkipped: {'identifier': 'cyphal'}
+[0.530313] (dataman) JobSkipped: {'identifier': 'dataman'}
+[0.530336] (dmesg) JobSkipped: {'identifier': 'dmesg'}
+[0.530361] (dshot) JobSkipped: {'identifier': 'dshot'}
+[0.530379] (dsm_rc) JobSkipped: {'identifier': 'dsm_rc'}
+[0.530394] (dumpfile) JobSkipped: {'identifier': 'dumpfile'}
+[0.530411] (dyn) JobSkipped: {'identifier': 'dyn'}
+[0.530427] (dyn_hello) JobSkipped: {'identifier': 'dyn_hello'}
+[0.530443] (ekf2) JobSkipped: {'identifier': 'ekf2'}
+[0.530459] (esc_battery) JobSkipped: {'identifier': 'esc_battery'}
+[0.530475] (ets) JobSkipped: {'identifier': 'ets'}
+[0.530490] (eulernav_bahrs) JobSkipped: {'identifier': 'eulernav_bahrs'}
+[0.530522] (events) JobSkipped: {'identifier': 'events'}
+[0.530555] (failure) JobSkipped: {'identifier': 'failure'}
+[0.530581] (fake_gps) JobSkipped: {'identifier': 'fake_gps'}
+[0.530603] (fake_imu) JobSkipped: {'identifier': 'fake_imu'}
+[0.530624] (fake_magnetometer) JobSkipped: {'identifier': 'fake_magnetometer'}
+[0.530645] (flight_mode_manager) JobSkipped: {'identifier': 'flight_mode_manager'}
+[0.530663] (force_land) JobSkipped: {'identifier': 'force_land'}
+[0.530681] (ft_technologies) JobSkipped: {'identifier': 'ft_technologies'}
+[0.530698] (fw_att_control) JobSkipped: {'identifier': 'fw_att_control'}
+[0.530715] (fw_autotune_attitude_control) JobSkipped: {'identifier': 'fw_autotune_attitude_control'}
+[0.530734] (fw_lateral_longitudinal_control) JobSkipped: {'identifier': 'fw_lateral_longitudinal_control'}
+[0.530751] (fw_mode_manager) JobSkipped: {'identifier': 'fw_mode_manager'}
+[0.530777] (fw_rate_control) JobSkipped: {'identifier': 'fw_rate_control'}
+[0.530799] (fxas21002c) JobSkipped: {'identifier': 'fxas21002c'}
+[0.530824] (fxos8701cq) JobSkipped: {'identifier': 'fxos8701cq'}
+[0.530846] (ghst_rc) JobSkipped: {'identifier': 'ghst_rc'}
+[0.530869] (gimbal) JobSkipped: {'identifier': 'gimbal'}
+[0.530892] (gpio) JobSkipped: {'identifier': 'gpio'}
+[0.530924] (gps) JobSkipped: {'identifier': 'gps'}
+[0.530948] (gy_us42) JobSkipped: {'identifier': 'gy_us42'}
+[0.530975] (gyro_calibration) JobSkipped: {'identifier': 'gyro_calibration'}
+[0.530991] (gyro_fft) JobSkipped: {'identifier': 'gyro_fft'}
+[0.531116] (gz_bridge) JobSkipped: {'identifier': 'gz_bridge'}
+[0.531146] (gz_msgs) JobSkipped: {'identifier': 'gz_msgs'}
+[0.531164] (hardfault_log) JobSkipped: {'identifier': 'hardfault_log'}
+[0.531181] (hardfault_stream) JobSkipped: {'identifier': 'hardfault_stream'}
+[0.531197] (heater) JobSkipped: {'identifier': 'heater'}
+[0.531214] (hello) JobSkipped: {'identifier': 'hello'}
+[0.531230] (hist) JobSkipped: {'identifier': 'hist'}
+[0.531247] (i2c_launcher) JobSkipped: {'identifier': 'i2c_launcher'}
+[0.531263] (i2cdetect) JobSkipped: {'identifier': 'i2cdetect'}
+[0.531289] (iam20680hp) JobSkipped: {'identifier': 'iam20680hp'}
+[0.531311] (icm20602) JobSkipped: {'identifier': 'icm20602'}
+[0.531332] (icm20608g) JobSkipped: {'identifier': 'icm20608g'}
+[0.531433] (icm20649) JobSkipped: {'identifier': 'icm20649'}
+[0.531569] (icm20689) JobSkipped: {'identifier': 'icm20689'}
+[0.531712] (icm20948) JobSkipped: {'identifier': 'icm20948'}
+[0.531772] (icm40609d) JobSkipped: {'identifier': 'icm40609d'}
+[0.531830] (icm42605) JobSkipped: {'identifier': 'icm42605'}
+[0.531874] (icm42670p) JobSkipped: {'identifier': 'icm42670p'}
+[0.531915] (icm42688p) JobSkipped: {'identifier': 'icm42688p'}
+[0.531955] (icm45686) JobSkipped: {'identifier': 'icm45686'}
+[0.531996] (iim42652) JobSkipped: {'identifier': 'iim42652'}
+[0.532034] (iim42653) JobSkipped: {'identifier': 'iim42653'}
+[0.532051] (ilabs) JobSkipped: {'identifier': 'ilabs'}
+[0.532067] (ina220) JobSkipped: {'identifier': 'ina220'}
+[0.532084] (ina226) JobSkipped: {'identifier': 'ina226'}
+[0.532102] (ina228) JobSkipped: {'identifier': 'ina228'}
+[0.532118] (ina238) JobSkipped: {'identifier': 'ina238'}
+[0.532135] (internal_combustion_engine_control) JobSkipped: {'identifier': 'internal_combustion_engine_control'}
+[0.532178] (io_bypass_control) JobSkipped: {'identifier': 'io_bypass_control'}
+[0.532199] (irlock) JobSkipped: {'identifier': 'irlock'}
+[0.532215] (l3gd20) JobSkipped: {'identifier': 'l3gd20'}
+[0.532231] (land_detector) JobSkipped: {'identifier': 'land_detector'}
+[0.532248] (landing_target_estimator) JobSkipped: {'identifier': 'landing_target_estimator'}
+[0.532267] (launch_kmod) JobSkipped: {'identifier': 'launch_kmod'}
+[0.532284] (led_control) JobSkipped: {'identifier': 'led_control'}
+[0.532302] (leddar_one) JobSkipped: {'identifier': 'leddar_one'}
+[0.532318] (lib) JobSkipped: {'identifier': 'lib'}
+[0.532335] (lights) JobSkipped: {'identifier': 'lights'}
+[0.532351] (lightware_laser_i2c) JobSkipped: {'identifier': 'lightware_laser_i2c'}
+[0.532367] (lightware_laser_serial) JobSkipped: {'identifier': 'lightware_laser_serial'}
+[0.532384] (lightware_sf45_serial) JobSkipped: {'identifier': 'lightware_sf45_serial'}
+[0.532400] (linux_pwm_out) JobSkipped: {'identifier': 'linux_pwm_out'}
+[0.532416] (ll40ls) JobSkipped: {'identifier': 'll40ls'}
+[0.532432] (ll40ls_pwm) JobSkipped: {'identifier': 'll40ls_pwm'}
+[0.532449] (load_mon) JobSkipped: {'identifier': 'load_mon'}
+[0.532464] (local_position_estimator) JobSkipped: {'identifier': 'local_position_estimator'}
+[0.532481] (logger) JobSkipped: {'identifier': 'logger'}
+[0.532497] (lsm303d) JobSkipped: {'identifier': 'lsm303d'}
+[0.532520] (lsm9ds1) JobSkipped: {'identifier': 'lsm9ds1'}
+[0.532563] (mag_bias_estimator) JobSkipped: {'identifier': 'mag_bias_estimator'}
+[0.532586] (magnetometer) JobSkipped: {'identifier': 'magnetometer'}
+[0.532605] (manual_control) JobSkipped: {'identifier': 'manual_control'}
+[0.532623] (mappydot) JobSkipped: {'identifier': 'mappydot'}
+[0.532640] (matlab_csv_serial) JobSkipped: {'identifier': 'matlab_csv_serial'}
+[0.532657] (mavlink) JobSkipped: {'identifier': 'mavlink'}
+[0.532676] (mb12xx) JobSkipped: {'identifier': 'mb12xx'}
+[0.532694] (mc_att_control) JobSkipped: {'identifier': 'mc_att_control'}
+[0.532714] (mc_autotune_attitude_control) JobSkipped: {'identifier': 'mc_autotune_attitude_control'}
+[0.532737] (mc_hover_thrust_estimator) JobSkipped: {'identifier': 'mc_hover_thrust_estimator'}
+[0.532762] (mc_nn_control) JobSkipped: {'identifier': 'mc_nn_control'}
+[0.532788] (mc_pos_control) JobSkipped: {'identifier': 'mc_pos_control'}
+[0.532818] (mc_raptor) JobSkipped: {'identifier': 'mc_raptor'}
+[0.532863] (mc_rate_control) JobSkipped: {'identifier': 'mc_rate_control'}
+[0.532910] (mcp23009) JobSkipped: {'identifier': 'mcp23009'}
+[0.532956] (mcp23017) JobSkipped: {'identifier': 'mcp23017'}
+[0.533009] (mcp9808) JobSkipped: {'identifier': 'mcp9808'}
+[0.533059] (mft) JobSkipped: {'identifier': 'mft'}
+[0.533318] (mft_cfg) JobSkipped: {'identifier': 'mft_cfg'}
+[0.533335] (microbench) JobSkipped: {'identifier': 'microbench'}
+[0.533344] (microstrain) JobSkipped: {'identifier': 'microstrain'}
+[0.533354] (mpu6000) JobSkipped: {'identifier': 'mpu6000'}
+[0.533363] (mpu6500) JobSkipped: {'identifier': 'mpu6500'}
+[0.533373] (mpu9250) JobSkipped: {'identifier': 'mpu9250'}
+[0.533382] (ms4515) JobSkipped: {'identifier': 'ms4515'}
+[0.533397] (ms4525do) JobSkipped: {'identifier': 'ms4525do'}
+[0.533411] (ms5525dso) JobSkipped: {'identifier': 'ms5525dso'}
+[0.533423] (msp_osd) JobSkipped: {'identifier': 'msp_osd'}
+[0.533436] (mtd) JobSkipped: {'identifier': 'mtd'}
+[0.533450] (navigator) JobSkipped: {'identifier': 'navigator'}
+[0.533460] (netman) JobSkipped: {'identifier': 'netman'}
+[0.533472] (nshterm) JobSkipped: {'identifier': 'nshterm'}
+[0.533482] (offboard_rl) JobSkipped: {'identifier': 'offboard_rl'}
+[0.533493] (paa3905) JobSkipped: {'identifier': 'paa3905'}
+[0.533519] (param) JobSkipped: {'identifier': 'param'}
+[0.533561] (paw3902) JobSkipped: {'identifier': 'paw3902'}
+[0.533571] (payload_deliverer) JobSkipped: {'identifier': 'payload_deliverer'}
+[0.533585] (pca9685_pwm_out) JobSkipped: {'identifier': 'pca9685_pwm_out'}
+[0.533595] (pcf8583) JobSkipped: {'identifier': 'pcf8583'}
+[0.533605] (perf) JobSkipped: {'identifier': 'perf'}
+[0.533640] (pga460) JobSkipped: {'identifier': 'pga460'}
+[0.533659] (pmw3901) JobSkipped: {'identifier': 'pmw3901'}
+[0.533673] (posix) JobSkipped: {'identifier': 'posix'}
+[0.533685] (pps_capture) JobSkipped: {'identifier': 'pps_capture'}
+[0.533697] (pwm_input) JobSkipped: {'identifier': 'pwm_input'}
+[0.533710] (pwm_out) JobSkipped: {'identifier': 'pwm_out'}
+[0.533727] (pwm_out_sim) JobSkipped: {'identifier': 'pwm_out_sim'}
+[0.533745] (px4) JobSkipped: {'identifier': 'px4'}
+[0.533759] (px4_gz_plugins) JobSkipped: {'identifier': 'px4_gz_plugins'}
+[0.533774] (px4_mavlink_debug) JobSkipped: {'identifier': 'px4_mavlink_debug'}
+[0.533788] (px4_simple_app) JobSkipped: {'identifier': 'px4_simple_app'}
+[0.533800] (px4flow) JobSkipped: {'identifier': 'px4flow'}
+[0.533811] (px4io) JobSkipped: {'identifier': 'px4io'}
+[0.533822] (px4iofirmware) JobSkipped: {'identifier': 'px4iofirmware'}
+[0.533832] (qurt) JobSkipped: {'identifier': 'qurt'}
+[0.533843] (rc_input) JobSkipped: {'identifier': 'rc_input'}
+[0.533855] (rc_update) JobSkipped: {'identifier': 'rc_update'}
+[0.533872] (reboot) JobSkipped: {'identifier': 'reboot'}
+[0.533890] (reflect) JobSkipped: {'identifier': 'reflect'}
+[0.533920] (replay) JobSkipped: {'identifier': 'replay'}
+[0.533998] (roboclaw) JobSkipped: {'identifier': 'roboclaw'}
+[0.534020] (rover_ackermann) JobSkipped: {'identifier': 'rover_ackermann'}
+[0.534030] (rover_differential) JobSkipped: {'identifier': 'rover_differential'}
+[0.534039] (rover_mecanum) JobSkipped: {'identifier': 'rover_mecanum'}
+[0.534050] (rpi_rc_in) JobSkipped: {'identifier': 'rpi_rc_in'}
+[0.534060] (rpm_capture) JobSkipped: {'identifier': 'rpm_capture'}
+[0.534069] (rpm_simulator) JobSkipped: {'identifier': 'rpm_simulator'}
+[0.534078] (safety_button) JobSkipped: {'identifier': 'safety_button'}
+[0.534088] (sbgecom) JobSkipped: {'identifier': 'sbgecom'}
+[0.534097] (sbus_rc) JobSkipped: {'identifier': 'sbus_rc'}
+[0.534106] (sch16t) JobSkipped: {'identifier': 'sch16t'}
+[0.534114] (sd_bench) JobSkipped: {'identifier': 'sd_bench'}
+[0.534122] (sd_stress) JobSkipped: {'identifier': 'sd_stress'}
+[0.534131] (sdp3x) JobSkipped: {'identifier': 'sdp3x'}
+[0.534139] (sensor_agp_sim) JobSkipped: {'identifier': 'sensor_agp_sim'}
+[0.534149] (sensor_airspeed_sim) JobSkipped: {'identifier': 'sensor_airspeed_sim'}
+[0.534157] (sensor_baro_sim) JobSkipped: {'identifier': 'sensor_baro_sim'}
+[0.534165] (sensor_gps_sim) JobSkipped: {'identifier': 'sensor_gps_sim'}
+[0.534173] (sensor_mag_sim) JobSkipped: {'identifier': 'sensor_mag_sim'}
+[0.534181] (sensors) JobSkipped: {'identifier': 'sensors'}
+[0.534190] (septentrio) JobSkipped: {'identifier': 'septentrio'}
+[0.534198] (serial_passthru) JobSkipped: {'identifier': 'serial_passthru'}
+[0.534206] (serial_test) JobSkipped: {'identifier': 'serial_test'}
+[0.534214] (sht3x) JobSkipped: {'identifier': 'sht3x'}
+[0.534222] (shutdown) JobSkipped: {'identifier': 'shutdown'}
+[0.534230] (simulator_mavlink) JobSkipped: {'identifier': 'simulator_mavlink'}
+[0.534239] (simulator_sih) JobSkipped: {'identifier': 'simulator_sih'}
+[0.534249] (slpi) JobSkipped: {'identifier': 'slpi'}
+[0.534259] (spacecraft) JobSkipped: {'identifier': 'spacecraft'}
+[0.534269] (srf02) JobSkipped: {'identifier': 'srf02'}
+[0.534279] (srf05) JobSkipped: {'identifier': 'srf05'}
+[0.534289] (stub_keystore) JobSkipped: {'identifier': 'stub_keystore'}
+[0.534297] (sw_crypto) JobSkipped: {'identifier': 'sw_crypto'}
+[0.534306] (system_power_simulator) JobSkipped: {'identifier': 'system_power_simulator'}
+[0.534315] (system_time) JobSkipped: {'identifier': 'system_time'}
+[0.534324] (tap_esc) JobSkipped: {'identifier': 'tap_esc'}
+[0.534333] (tattu_can) JobSkipped: {'identifier': 'tattu_can'}
+[0.534342] (telemetry) JobSkipped: {'identifier': 'telemetry'}
+[0.534351] (temperature_compensation) JobSkipped: {'identifier': 'temperature_compensation'}
+[0.534365] (template_module) JobSkipped: {'identifier': 'template_module'}
+[0.534376] (teraranger) JobSkipped: {'identifier': 'teraranger'}
+[0.534385] (test_ppm) JobSkipped: {'identifier': 'test_ppm'}
+[0.534394] (tests) JobSkipped: {'identifier': 'tests'}
+[0.534436] (tf02pro) JobSkipped: {'identifier': 'tf02pro'}
+[0.534446] (tfmini) JobSkipped: {'identifier': 'tfmini'}
+[0.534459] (thoneflow) JobSkipped: {'identifier': 'thoneflow'}
+[0.534469] (time_persistor) JobSkipped: {'identifier': 'time_persistor'}
+[0.534478] (tla2528) JobSkipped: {'identifier': 'tla2528'}
+[0.534485] (tmp102) JobSkipped: {'identifier': 'tmp102'}
+[0.534494] (tone_alarm) JobSkipped: {'identifier': 'tone_alarm'}
+[0.534501] (top) JobSkipped: {'identifier': 'top'}
+[0.534518] (topic_listener) JobSkipped: {'identifier': 'topic_listener'}
+[0.534607] (transponder) JobSkipped: {'identifier': 'transponder'}
+[0.534720] (tune_control) JobSkipped: {'identifier': 'tune_control'}
+[0.534756] (uavcan) JobSkipped: {'identifier': 'uavcan'}
+[0.534785] (uavcannode) JobSkipped: {'identifier': 'uavcannode'}
+[0.534818] (ulanding_radar) JobSkipped: {'identifier': 'ulanding_radar'}
+[0.534837] (uorb) JobSkipped: {'identifier': 'uorb'}
+[0.534854] (usb_connected) JobSkipped: {'identifier': 'usb_connected'}
+[0.534871] (uuv_att_control) JobSkipped: {'identifier': 'uuv_att_control'}
+[0.534887] (uuv_pos_control) JobSkipped: {'identifier': 'uuv_pos_control'}
+[0.534903] (uwb) JobSkipped: {'identifier': 'uwb'}
+[0.534920] (uxrce_dds_client) JobSkipped: {'identifier': 'uxrce_dds_client'}
+[0.534938] (vectornav) JobSkipped: {'identifier': 'vectornav'}
+[0.534957] (ver) JobSkipped: {'identifier': 'ver'}
+[0.534973] (vertiq_io) JobSkipped: {'identifier': 'vertiq_io'}
+[0.534988] (vl53l0x) JobSkipped: {'identifier': 'vl53l0x'}
+[0.535002] (vl53l1x) JobSkipped: {'identifier': 'vl53l1x'}
+[0.535019] (voxl2_io) JobSkipped: {'identifier': 'voxl2_io'}
+[0.535033] (voxl_esc) JobSkipped: {'identifier': 'voxl_esc'}
+[0.535047] (voxlpm) JobSkipped: {'identifier': 'voxlpm'}
+[0.535061] (vtol_att_control) JobSkipped: {'identifier': 'vtol_att_control'}
+[0.535076] (vtx) JobSkipped: {'identifier': 'vtx'}
+[0.535090] (vtxtable) JobSkipped: {'identifier': 'vtxtable'}
+[0.535104] (work_item) JobSkipped: {'identifier': 'work_item'}
+[0.535119] (work_queue) JobSkipped: {'identifier': 'work_queue'}
+[0.535133] (zenoh) JobSkipped: {'identifier': 'zenoh'}
+[0.535148] (-) EventReactorShutdown: {}

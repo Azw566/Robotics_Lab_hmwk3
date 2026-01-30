@@ -1,87 +1,72 @@
-# RL2025HW02 :package:
-Control your robot
+# RL2025HW03 :package:
+Fly your drone
 
 ## Getting Started :hammer:
+Make sure you have installed `QGROUNDCONTROL` available [here](https://qgroundcontrol.com)
 
 ```shell
-cd ~/ros2_ws
-git clone https://github.com/P0l1702/RL2025HW02.git
+cd /ros2_ws/src
+git clone https://github.com/P0l1702/RL2025HW03.git
+git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+cd PX4-Autopilot
+git checkout v1.16.0
+cd ..
+git clone https://github.com/PX4/px4_msgs.git
+cd px4_msgs
+git checkout release/1.16
+```
+Copy the corresponding files from the folder `RL2025HW03/PX4-Autopilot` in the original  `PX4-Autopilot` folder. Then in the`/ros2_ws` fold execute:
+```shell
 colcon build 
 source install/setup.bash
 ```
+
 ## Usage :white_check_mark:
 
- ## **1. Kinematic control** :checkered_flag:
- ### 1.1 Control with `ros2_kdl_node`:
-Launch the `iiwa.launch.py` from the `iiwa_bringup` package with the desired command interface and controller:
+ ## **1.Fly pizza drone** :pizza:
+Open `QGROUNDCONTROL` then in a new terminal:
 ```shell
-ros2 launch iiwa_bringup iiwa.launch.py command_interface:=<cmd_interface> robot_controller:=<controller>
+cd /ros2_ws/src/PX4-Autopilot/
+make px4_sitl gz_pizza_drone
 ```
-where `<cmd_interface>` is `velocity` or `position` and 
-`<controller>` is `velocity_controller` or `iiwa_arm_controller`.
-<br>  
-In another terminal launch the `iiwa.control.launch.py` from the `ros2_kdl_package` package with the desired command interface and control mode:
+A new gazebo simulation will open and from now you can fly your pizza drone by using the sticks. 
+
+ ## **2.Force land revisited** :arrows_clockwise:
+Open `QGROUNDCONTROL` then in a new terminal:
 ```shell
-ros2 launch ros2_kdl_package iiwa.control.launch.py cmd_interface:=<cmd_interface> ctrl:=<ctrl>
+cd /ros2_ws/src/PX4-Autopilot/
+make px4_sitl gz_pizza_drone
 ```
-where 
-`<cmd_interface>` is `velocity` or `position ` and 
-`<ctrl>` is `velocity_ctrl` or `velocity_ctrl_null`.
-
- ### 1.2 Control with action server
-Launch the `iiwa.launch.py` from the `iiwa_bringup` package with the desired command interface and controller:
+In a second terminal run the following command:
 ```shell
-ros2 launch iiwa_bringup iiwa.launch.py command_interface:=<cmd_interface> robot_controller:=<controller>
+cd /ros2_ws/src
+./DDS_run.sh
 ```
-where `<cmd_interface>` is `velocity` or `position` and 
-`<controller>` is `velocity_controller` or `iiwa_arm_controller`.
-<br>  
-Run the server with the right command interface in a second terminal:
+And in a third terminal launch:
 ```shell
-ros2 run ros2_kdl_package kdl_action_server --ros-args -p cmd_interface:=<cmd_interface>
+cd /ros2_ws
+ros2 run force_land force_land
 ```
-where 
-`<cmd_interface>` is `velocity` or `position`.
+From now, you can takeoff your drone. The landing procedure will activate only once, after that the threshold of 20m is surpassed. 
 
-<br>
+To test the correct functioning, it is advisable to do the takeoff directly above 20 m, and then resume control by using the sticks. 
 
-Run the client (in a third terminal) that will send requests to the server passing the parameters from the `parameters.yaml` file with the desired command interface and control mode:
+## **3. Flying in offboard mode** :airplane:
+Open `QGROUNDCONTROL` then in a new terminal:
 ```shell
-ros2 launch ros2_kdl_package iiwa.client.launch.py cmd_interface:=<cmd_interface> ctrl:=<ctrl>
+cd /ros2_ws/src/PX4-Autopilot/
+make px4_sitl gz_pizza_drone
 ```
-where 
-`<cmd_interface>` is `velocity` or `position ` and 
-`<ctrl>` is `velocity_ctrl` or `velocity_ctrl_null`.
-
- ## **2. Vision control** :camera:
-Launch the `iiwa_world_vision.launch.py` from the `ros2_kdl_package` package with the desired command interface and controller:
+In a second terminal run the following command:
 ```shell
-ros2 launch ros2_kdl_package iiwa_world_vision.launch.py
+cd /ros2_ws/src
+./DDS_run.sh
 ```
-
-This command will load the `rqt_image_view` node and the `single.launch.py` from the `aruco_ros` package.
-
-<br>
-
-In another terminal run the `ros2_kdl_node_vision` from the `ros2_kdl_package` in order to start the vision control:
+And in a third terminal launch:
 ```shell
-ros2 run ros2_kdl_package ros2_kdl_node_vision
+cd /ros2_ws
+ros2 run offboard_rl execute_trajectory
 ```
-
-<br>
-
-It is possible to move the `arucotag` object by calling the corresponding remapped service from gazebo:
-```shell
-ros2 service call /world/default/set_pose ros_gz_interfaces/srv/SetEntityPose "{
-  entity: {
-    name: 'arucotag',  
-    type: 1           
-  },
-  pose: {
-    position: {x: 1.0, y: 1.5, z: 0.5},
-    orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
-  }
-}"
-```
+Then you can see, the pizza drone following the trajectory.
 ### Note:
-In the plot folder codes to convert from `.db3` files to `.csv` and plot them are available :coffee:
+In the repository, also bag files are available in the `bag` folder. :coffee:

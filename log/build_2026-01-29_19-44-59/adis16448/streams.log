@@ -1,0 +1,42 @@
+[0.043s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/adis16448': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/drivers/imu/analog_devices/adis16448 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/adis16448
+[0.083s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.083s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.084s]   contain a literal, direct call to the project() command.  Add a line of
+[0.084s]   code such as
+[0.084s] 
+[0.084s]     project(ProjectName)
+[0.084s] 
+[0.084s]   near the top of the file, but after cmake_minimum_required().
+[0.084s] 
+[0.084s]   CMake is pretending there is a "project(Project)" command on the first
+[0.084s]   line.
+[0.084s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.084s] [0m
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.198s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.313s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.441s] [31mCMake Error at CMakeLists.txt:34 (px4_add_module):
+[0.442s]   Unknown CMake command "px4_add_module".
+[0.442s] 
+[0.442s] [0m
+[0.445s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.445s]   No cmake_minimum_required command is present.  A line of code such as
+[0.445s] 
+[0.445s]     cmake_minimum_required(VERSION 3.22)
+[0.445s] 
+[0.445s]   should be added at the top of the file.  The version specified may be lower
+[0.445s]   if you wish to support older CMake versions for this project.  For more
+[0.445s]   information run "cmake --help-policy CMP0000".
+[0.445s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.445s] [0m
+[0.446s] -- Configuring incomplete, errors occurred!
+[0.446s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/adis16448/CMakeFiles/CMakeOutput.log".

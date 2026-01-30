@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmcp_common.a CMakeFiles/mcp_common.dir/MCP.cpp.o CMakeFiles/mcp_common.dir/__/__/__/drivers/gpio/mcp23009/MCP23009.cpp.o CMakeFiles/mcp_common.dir/__/__/__/drivers/gpio/mcp23017/MCP23017.cpp.o
+/usr/bin/ranlib libmcp_common.a

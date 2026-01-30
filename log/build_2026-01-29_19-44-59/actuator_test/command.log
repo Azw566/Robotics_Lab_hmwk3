@@ -1,0 +1,2 @@
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/actuator_test': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/systemcmds/actuator_test -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/actuator_test
+Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/actuator_test' returned '1': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/systemcmds/actuator_test -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/actuator_test

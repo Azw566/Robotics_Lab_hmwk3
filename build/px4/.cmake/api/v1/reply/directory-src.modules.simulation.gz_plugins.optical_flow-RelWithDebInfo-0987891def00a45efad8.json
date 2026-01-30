@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/modules/simulation/gz_plugins/optical_flow/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_gz_plugins",
+			"paths" : 
+			[
+				"src/modules/simulation/gz_plugins/libOpticalFlowSystem.so"
+			],
+			"targetId" : "OpticalFlowSystem::@f2d68234a75845349b9d",
+			"targetIndex" : 53,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/modules/simulation/gz_plugins/optical_flow",
+		"source" : "src/modules/simulation/gz_plugins/optical_flow"
+	}
+}

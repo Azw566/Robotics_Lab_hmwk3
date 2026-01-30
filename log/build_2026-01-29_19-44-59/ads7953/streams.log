@@ -1,0 +1,42 @@
+[0.048s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ads7953': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/drivers/adc/ads7953 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/ads7953
+[0.090s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.090s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.091s]   contain a literal, direct call to the project() command.  Add a line of
+[0.091s]   code such as
+[0.091s] 
+[0.091s]     project(ProjectName)
+[0.091s] 
+[0.091s]   near the top of the file, but after cmake_minimum_required().
+[0.091s] 
+[0.091s]   CMake is pretending there is a "project(Project)" command on the first
+[0.091s]   line.
+[0.091s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.092s] [0m
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.204s] -- The CXX compiler identification is GNU 11.4.0
+[0.213s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.319s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.445s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.449s] -- Detecting CXX compile features
+[0.450s] -- Detecting CXX compile features - done
+[0.450s] [31mCMake Error at CMakeLists.txt:34 (px4_add_module):
+[0.450s]   Unknown CMake command "px4_add_module".
+[0.450s] 
+[0.450s] [0m
+[0.451s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.451s]   No cmake_minimum_required command is present.  A line of code such as
+[0.451s] 
+[0.451s]     cmake_minimum_required(VERSION 3.22)
+[0.451s] 
+[0.451s]   should be added at the top of the file.  The version specified may be lower
+[0.451s]   if you wish to support older CMake versions for this project.  For more
+[0.451s]   information run "cmake --help-policy CMP0000".
+[0.452s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.452s] [0m
+[0.452s] -- Configuring incomplete, errors occurred!
+[0.452s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/ads7953/CMakeFiles/CMakeOutput.log".

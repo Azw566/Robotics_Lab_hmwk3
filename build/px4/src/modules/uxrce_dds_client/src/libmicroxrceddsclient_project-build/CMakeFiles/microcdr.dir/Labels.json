@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/CMakeFiles/microcdr"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/CMakeFiles/microcdr.rule"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/CMakeFiles/microcdr-complete.rule"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-stamp/microcdr-build.rule"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-stamp/microcdr-configure.rule"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-stamp/microcdr-download.rule"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-stamp/microcdr-install.rule"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-stamp/microcdr-mkdir.rule"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-stamp/microcdr-patch.rule"
+		},
+		{
+			"file" : "/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-stamp/microcdr-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"microcdr"
+		],
+		"name" : "microcdr"
+	}
+}

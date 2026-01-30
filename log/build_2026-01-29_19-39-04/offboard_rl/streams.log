@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/offboard_rl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/offboard_rl -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/offboard_rl
+[0.023s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.161s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.277s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.277s]   By not providing "Findpx4_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[0.277s]   asked CMake to find a package configuration file provided by "px4_msgs",
+[0.277s]   but CMake did not find one.
+[0.277s] 
+[0.278s]   Could not find a package configuration file provided by "px4_msgs" with any
+[0.278s]   of the following names:
+[0.278s] 
+[0.278s]     px4_msgsConfig.cmake
+[0.278s]     px4_msgs-config.cmake
+[0.278s] 
+[0.278s]   Add the installation prefix of "px4_msgs" to CMAKE_PREFIX_PATH or set
+[0.278s]   "px4_msgs_DIR" to a directory containing one of the above files.  If
+[0.278s]   "px4_msgs" provides a separate development package or SDK, be sure it has
+[0.278s]   been installed.
+[0.278s] 
+[0.278s] [0m
+[0.278s] -- Configuring incomplete, errors occurred!
+[0.278s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/offboard_rl/CMakeFiles/CMakeOutput.log".
+[0.281s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/offboard_rl' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/offboard_rl -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/offboard_rl

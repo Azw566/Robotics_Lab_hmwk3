@@ -1,0 +1,42 @@
+[0.081s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/asp5033': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/drivers/differential_pressure/asp5033 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/asp5033
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[0.431s] -- The CXX compiler identification is GNU 11.4.0
+[0.431s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.431s] -- Detecting C compile features
+[0.431s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.431s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.431s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.432s]   contain a literal, direct call to the project() command.  Add a line of
+[0.432s]   code such as
+[0.432s] 
+[0.432s]     project(ProjectName)
+[0.432s] 
+[0.432s]   near the top of the file, but after cmake_minimum_required().
+[0.432s] 
+[0.432s]   CMake is pretending there is a "project(Project)" command on the first
+[0.432s]   line.
+[0.432s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.433s] [0m
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.449s] -- Detecting CXX compile features
+[0.450s] -- Detecting CXX compile features - done
+[0.451s] [31mCMake Error at CMakeLists.txt:33 (px4_add_module):
+[0.451s]   Unknown CMake command "px4_add_module".
+[0.451s] 
+[0.451s] [0m
+[0.451s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.451s]   No cmake_minimum_required command is present.  A line of code such as
+[0.451s] 
+[0.451s]     cmake_minimum_required(VERSION 3.22)
+[0.451s] 
+[0.451s]   should be added at the top of the file.  The version specified may be lower
+[0.451s]   if you wish to support older CMake versions for this project.  For more
+[0.451s]   information run "cmake --help-policy CMP0000".
+[0.451s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.451s] [0m
+[0.451s] -- Configuring incomplete, errors occurred!
+[0.451s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/asp5033/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG  -fuse-ld=gold -shared -Wl,-soname,examples__dyn_hello.px4mod -o examples__dyn_hello.px4mod CMakeFiles/examples__dyn_hello.dir/hello.cpp.o   -L/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Install/lib  -Wl,-rpath,/home/telemaque/Robotics_Lab/ros2_ws/build/px4/external/Install/lib 

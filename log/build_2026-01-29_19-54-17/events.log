@@ -1,0 +1,429 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (-) JobUnselected: {'identifier': 'actuator_test'}
+[0.000310] (-) JobUnselected: {'identifier': 'adis16448'}
+[0.000320] (-) JobUnselected: {'identifier': 'adis16470'}
+[0.000328] (-) JobUnselected: {'identifier': 'adis16477'}
+[0.000336] (-) JobUnselected: {'identifier': 'adis16497'}
+[0.000343] (-) JobUnselected: {'identifier': 'adis16507'}
+[0.000351] (-) JobUnselected: {'identifier': 'ads1115'}
+[0.000358] (-) JobUnselected: {'identifier': 'ads7953'}
+[0.000366] (-) JobUnselected: {'identifier': 'airship_att_control'}
+[0.000373] (-) JobUnselected: {'identifier': 'airspeed_selector'}
+[0.000381] (-) JobUnselected: {'identifier': 'apps'}
+[0.000389] (-) JobUnselected: {'identifier': 'asp5033'}
+[0.000396] (-) JobUnselected: {'identifier': 'attitude_estimator_q'}
+[0.000403] (-) JobUnselected: {'identifier': 'atxxxx'}
+[0.000411] (-) JobUnselected: {'identifier': 'auav'}
+[0.000419] (-) JobUnselected: {'identifier': 'auterion_autostarter'}
+[0.000426] (-) JobUnselected: {'identifier': 'barometer'}
+[0.000434] (-) JobUnselected: {'identifier': 'batmon'}
+[0.000442] (-) JobUnselected: {'identifier': 'batt_smbus'}
+[0.000449] (-) JobUnselected: {'identifier': 'battery_simulator'}
+[0.000463] (-) JobUnselected: {'identifier': 'battery_status'}
+[0.000473] (-) JobUnselected: {'identifier': 'bl_update'}
+[0.000481] (-) JobUnselected: {'identifier': 'board_adc'}
+[0.000488] (-) JobUnselected: {'identifier': 'bootloaders'}
+[0.000496] (-) JobUnselected: {'identifier': 'bosch'}
+[0.000503] (-) JobUnselected: {'identifier': 'broadcom'}
+[0.000510] (-) JobUnselected: {'identifier': 'bsondump'}
+[0.000518] (-) JobUnselected: {'identifier': 'camera_capture'}
+[0.000525] (-) JobUnselected: {'identifier': 'camera_feedback'}
+[0.000533] (-) JobUnselected: {'identifier': 'camera_trigger'}
+[0.000540] (-) JobUnselected: {'identifier': 'cdcacm_autostart'}
+[0.000548] (-) JobUnselected: {'identifier': 'cm8jl65'}
+[0.000555] (-) JobUnselected: {'identifier': 'commander'}
+[0.000563] (-) JobUnselected: {'identifier': 'control_allocator'}
+[0.000570] (-) JobUnselected: {'identifier': 'crsf_rc'}
+[0.000578] (-) JobUnselected: {'identifier': 'cyphal'}
+[0.000585] (-) JobUnselected: {'identifier': 'dataman'}
+[0.000592] (-) JobUnselected: {'identifier': 'dmesg'}
+[0.000600] (-) JobUnselected: {'identifier': 'dshot'}
+[0.000607] (-) JobUnselected: {'identifier': 'dsm_rc'}
+[0.000614] (-) JobUnselected: {'identifier': 'dumpfile'}
+[0.000622] (-) JobUnselected: {'identifier': 'dyn'}
+[0.000629] (-) JobUnselected: {'identifier': 'dyn_hello'}
+[0.000636] (-) JobUnselected: {'identifier': 'ekf2'}
+[0.000643] (-) JobUnselected: {'identifier': 'esc_battery'}
+[0.000651] (-) JobUnselected: {'identifier': 'ets'}
+[0.000658] (-) JobUnselected: {'identifier': 'eulernav_bahrs'}
+[0.000665] (-) JobUnselected: {'identifier': 'events'}
+[0.000673] (-) JobUnselected: {'identifier': 'failure'}
+[0.000680] (-) JobUnselected: {'identifier': 'fake_gps'}
+[0.000688] (-) JobUnselected: {'identifier': 'fake_imu'}
+[0.000695] (-) JobUnselected: {'identifier': 'fake_magnetometer'}
+[0.000703] (-) JobUnselected: {'identifier': 'flight_mode_manager'}
+[0.000710] (-) JobUnselected: {'identifier': 'ft_technologies'}
+[0.000717] (-) JobUnselected: {'identifier': 'fw_att_control'}
+[0.000724] (-) JobUnselected: {'identifier': 'fw_autotune_attitude_control'}
+[0.000732] (-) JobUnselected: {'identifier': 'fw_lateral_longitudinal_control'}
+[0.000740] (-) JobUnselected: {'identifier': 'fw_mode_manager'}
+[0.000748] (-) JobUnselected: {'identifier': 'fw_rate_control'}
+[0.000755] (-) JobUnselected: {'identifier': 'fxas21002c'}
+[0.000762] (-) JobUnselected: {'identifier': 'fxos8701cq'}
+[0.000770] (-) JobUnselected: {'identifier': 'ghst_rc'}
+[0.000778] (-) JobUnselected: {'identifier': 'gimbal'}
+[0.000785] (-) JobUnselected: {'identifier': 'gpio'}
+[0.000792] (-) JobUnselected: {'identifier': 'gps'}
+[0.000800] (-) JobUnselected: {'identifier': 'gy_us42'}
+[0.000808] (-) JobUnselected: {'identifier': 'gyro_calibration'}
+[0.000815] (-) JobUnselected: {'identifier': 'gyro_fft'}
+[0.000822] (-) JobUnselected: {'identifier': 'gz_bridge'}
+[0.001023] (-) JobUnselected: {'identifier': 'gz_msgs'}
+[0.001032] (-) JobUnselected: {'identifier': 'hardfault_log'}
+[0.001039] (-) JobUnselected: {'identifier': 'hardfault_stream'}
+[0.001046] (-) JobUnselected: {'identifier': 'heater'}
+[0.001054] (-) JobUnselected: {'identifier': 'hello'}
+[0.001061] (-) JobUnselected: {'identifier': 'hist'}
+[0.001069] (-) JobUnselected: {'identifier': 'i2c_launcher'}
+[0.001076] (-) JobUnselected: {'identifier': 'i2cdetect'}
+[0.001089] (-) JobUnselected: {'identifier': 'iam20680hp'}
+[0.001097] (-) JobUnselected: {'identifier': 'icm20602'}
+[0.001104] (-) JobUnselected: {'identifier': 'icm20608g'}
+[0.001112] (-) JobUnselected: {'identifier': 'icm20649'}
+[0.001119] (-) JobUnselected: {'identifier': 'icm20689'}
+[0.001126] (-) JobUnselected: {'identifier': 'icm20948'}
+[0.001134] (-) JobUnselected: {'identifier': 'icm40609d'}
+[0.001141] (-) JobUnselected: {'identifier': 'icm42605'}
+[0.001149] (-) JobUnselected: {'identifier': 'icm42670p'}
+[0.001156] (-) JobUnselected: {'identifier': 'icm42688p'}
+[0.001164] (-) JobUnselected: {'identifier': 'icm45686'}
+[0.001171] (-) JobUnselected: {'identifier': 'iim42652'}
+[0.001179] (-) JobUnselected: {'identifier': 'iim42653'}
+[0.001186] (-) JobUnselected: {'identifier': 'ilabs'}
+[0.001194] (-) JobUnselected: {'identifier': 'ina220'}
+[0.001201] (-) JobUnselected: {'identifier': 'ina226'}
+[0.001208] (-) JobUnselected: {'identifier': 'ina228'}
+[0.001216] (-) JobUnselected: {'identifier': 'ina238'}
+[0.001223] (-) JobUnselected: {'identifier': 'internal_combustion_engine_control'}
+[0.001230] (-) JobUnselected: {'identifier': 'io_bypass_control'}
+[0.001238] (-) JobUnselected: {'identifier': 'irlock'}
+[0.001246] (-) JobUnselected: {'identifier': 'l3gd20'}
+[0.001253] (-) JobUnselected: {'identifier': 'land_detector'}
+[0.001261] (-) JobUnselected: {'identifier': 'landing_target_estimator'}
+[0.001268] (-) JobUnselected: {'identifier': 'launch_kmod'}
+[0.001276] (-) JobUnselected: {'identifier': 'led_control'}
+[0.001283] (-) JobUnselected: {'identifier': 'leddar_one'}
+[0.001290] (-) JobUnselected: {'identifier': 'lib'}
+[0.001298] (-) JobUnselected: {'identifier': 'lights'}
+[0.001305] (-) JobUnselected: {'identifier': 'lightware_laser_i2c'}
+[0.001312] (-) JobUnselected: {'identifier': 'lightware_laser_serial'}
+[0.001320] (-) JobUnselected: {'identifier': 'lightware_sf45_serial'}
+[0.001327] (-) JobUnselected: {'identifier': 'linux_pwm_out'}
+[0.001335] (-) JobUnselected: {'identifier': 'll40ls'}
+[0.001342] (-) JobUnselected: {'identifier': 'll40ls_pwm'}
+[0.001350] (-) JobUnselected: {'identifier': 'load_mon'}
+[0.001357] (-) JobUnselected: {'identifier': 'local_position_estimator'}
+[0.001364] (-) JobUnselected: {'identifier': 'logger'}
+[0.001372] (-) JobUnselected: {'identifier': 'lsm303d'}
+[0.001379] (-) JobUnselected: {'identifier': 'lsm9ds1'}
+[0.001386] (-) JobUnselected: {'identifier': 'mag_bias_estimator'}
+[0.001393] (-) JobUnselected: {'identifier': 'magnetometer'}
+[0.001401] (-) JobUnselected: {'identifier': 'manual_control'}
+[0.001408] (-) JobUnselected: {'identifier': 'mappydot'}
+[0.001416] (-) JobUnselected: {'identifier': 'matlab_csv_serial'}
+[0.001423] (-) JobUnselected: {'identifier': 'mavlink'}
+[0.001431] (-) JobUnselected: {'identifier': 'mb12xx'}
+[0.001438] (-) JobUnselected: {'identifier': 'mc_att_control'}
+[0.001446] (-) JobUnselected: {'identifier': 'mc_autotune_attitude_control'}
+[0.001453] (-) JobUnselected: {'identifier': 'mc_hover_thrust_estimator'}
+[0.001466] (-) JobUnselected: {'identifier': 'mc_nn_control'}
+[0.001475] (-) JobUnselected: {'identifier': 'mc_pos_control'}
+[0.001483] (-) JobUnselected: {'identifier': 'mc_raptor'}
+[0.001491] (-) JobUnselected: {'identifier': 'mc_rate_control'}
+[0.001498] (-) JobUnselected: {'identifier': 'mcp23009'}
+[0.001505] (-) JobUnselected: {'identifier': 'mcp23017'}
+[0.001513] (-) JobUnselected: {'identifier': 'mcp9808'}
+[0.001520] (-) JobUnselected: {'identifier': 'mft'}
+[0.001527] (-) JobUnselected: {'identifier': 'mft_cfg'}
+[0.001535] (-) JobUnselected: {'identifier': 'microbench'}
+[0.001661] (-) JobUnselected: {'identifier': 'microstrain'}
+[0.001669] (-) JobUnselected: {'identifier': 'mpu6000'}
+[0.001676] (-) JobUnselected: {'identifier': 'mpu6500'}
+[0.001684] (-) JobUnselected: {'identifier': 'mpu9250'}
+[0.001691] (-) JobUnselected: {'identifier': 'ms4515'}
+[0.001699] (-) JobUnselected: {'identifier': 'ms4525do'}
+[0.001707] (-) JobUnselected: {'identifier': 'ms5525dso'}
+[0.001714] (-) JobUnselected: {'identifier': 'msp_osd'}
+[0.001722] (-) JobUnselected: {'identifier': 'mtd'}
+[0.001729] (-) JobUnselected: {'identifier': 'navigator'}
+[0.001736] (-) JobUnselected: {'identifier': 'netman'}
+[0.001743] (-) JobUnselected: {'identifier': 'nshterm'}
+[0.001751] (-) JobUnselected: {'identifier': 'offboard_rl'}
+[0.001758] (-) JobUnselected: {'identifier': 'paa3905'}
+[0.001765] (-) JobUnselected: {'identifier': 'param'}
+[0.001772] (-) JobUnselected: {'identifier': 'paw3902'}
+[0.001780] (-) JobUnselected: {'identifier': 'payload_deliverer'}
+[0.001787] (-) JobUnselected: {'identifier': 'pca9685_pwm_out'}
+[0.001795] (-) JobUnselected: {'identifier': 'pcf8583'}
+[0.001802] (-) JobUnselected: {'identifier': 'perf'}
+[0.001810] (-) JobUnselected: {'identifier': 'pga460'}
+[0.001817] (-) JobUnselected: {'identifier': 'pmw3901'}
+[0.001825] (-) JobUnselected: {'identifier': 'posix'}
+[0.001832] (-) JobUnselected: {'identifier': 'pps_capture'}
+[0.001839] (-) JobUnselected: {'identifier': 'pwm_input'}
+[0.001847] (-) JobUnselected: {'identifier': 'pwm_out'}
+[0.001854] (-) JobUnselected: {'identifier': 'pwm_out_sim'}
+[0.001861] (-) JobUnselected: {'identifier': 'px4'}
+[0.001869] (-) JobUnselected: {'identifier': 'px4_gz_plugins'}
+[0.001876] (-) JobUnselected: {'identifier': 'px4_mavlink_debug'}
+[0.001883] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001890] (-) JobUnselected: {'identifier': 'px4_simple_app'}
+[0.001897] (-) JobUnselected: {'identifier': 'px4flow'}
+[0.001905] (-) JobUnselected: {'identifier': 'px4io'}
+[0.001912] (-) JobUnselected: {'identifier': 'px4iofirmware'}
+[0.001919] (-) JobUnselected: {'identifier': 'qurt'}
+[0.001926] (-) JobUnselected: {'identifier': 'rc_input'}
+[0.001933] (-) JobUnselected: {'identifier': 'rc_update'}
+[0.001940] (-) JobUnselected: {'identifier': 'reboot'}
+[0.001947] (-) JobUnselected: {'identifier': 'reflect'}
+[0.001955] (-) JobUnselected: {'identifier': 'replay'}
+[0.001962] (-) JobUnselected: {'identifier': 'roboclaw'}
+[0.001969] (-) JobUnselected: {'identifier': 'rover_ackermann'}
+[0.001977] (-) JobUnselected: {'identifier': 'rover_differential'}
+[0.001984] (-) JobUnselected: {'identifier': 'rover_mecanum'}
+[0.001991] (-) JobUnselected: {'identifier': 'rpi_rc_in'}
+[0.001999] (-) JobUnselected: {'identifier': 'rpm_capture'}
+[0.002006] (-) JobUnselected: {'identifier': 'rpm_simulator'}
+[0.002013] (-) JobUnselected: {'identifier': 'safety_button'}
+[0.002021] (-) JobUnselected: {'identifier': 'sbgecom'}
+[0.002028] (-) JobUnselected: {'identifier': 'sbus_rc'}
+[0.002035] (-) JobUnselected: {'identifier': 'sch16t'}
+[0.002043] (-) JobUnselected: {'identifier': 'sd_bench'}
+[0.002050] (-) JobUnselected: {'identifier': 'sd_stress'}
+[0.002057] (-) JobUnselected: {'identifier': 'sdp3x'}
+[0.002065] (-) JobUnselected: {'identifier': 'sensor_agp_sim'}
+[0.002072] (-) JobUnselected: {'identifier': 'sensor_airspeed_sim'}
+[0.002079] (-) JobUnselected: {'identifier': 'sensor_baro_sim'}
+[0.002087] (-) JobUnselected: {'identifier': 'sensor_gps_sim'}
+[0.002094] (-) JobUnselected: {'identifier': 'sensor_mag_sim'}
+[0.002101] (-) JobUnselected: {'identifier': 'sensors'}
+[0.002108] (-) JobUnselected: {'identifier': 'septentrio'}
+[0.002115] (-) JobUnselected: {'identifier': 'serial_passthru'}
+[0.002123] (-) JobUnselected: {'identifier': 'serial_test'}
+[0.002130] (-) JobUnselected: {'identifier': 'sht3x'}
+[0.002138] (-) JobUnselected: {'identifier': 'shutdown'}
+[0.002145] (-) JobUnselected: {'identifier': 'simulator_mavlink'}
+[0.002153] (-) JobUnselected: {'identifier': 'simulator_sih'}
+[0.002166] (-) JobUnselected: {'identifier': 'slpi'}
+[0.002173] (-) JobUnselected: {'identifier': 'spacecraft'}
+[0.002181] (-) JobUnselected: {'identifier': 'srf02'}
+[0.002189] (-) JobUnselected: {'identifier': 'srf05'}
+[0.002197] (-) JobUnselected: {'identifier': 'stub_keystore'}
+[0.002204] (-) JobUnselected: {'identifier': 'sw_crypto'}
+[0.002212] (-) JobUnselected: {'identifier': 'system_power_simulator'}
+[0.002220] (-) JobUnselected: {'identifier': 'system_time'}
+[0.002227] (-) JobUnselected: {'identifier': 'tap_esc'}
+[0.002234] (-) JobUnselected: {'identifier': 'tattu_can'}
+[0.002243] (-) JobUnselected: {'identifier': 'telemetry'}
+[0.002253] (-) JobUnselected: {'identifier': 'temperature_compensation'}
+[0.002261] (-) JobUnselected: {'identifier': 'template_module'}
+[0.002269] (-) JobUnselected: {'identifier': 'teraranger'}
+[0.002277] (-) JobUnselected: {'identifier': 'test_ppm'}
+[0.002284] (-) JobUnselected: {'identifier': 'tests'}
+[0.002292] (-) JobUnselected: {'identifier': 'tf02pro'}
+[0.002299] (-) JobUnselected: {'identifier': 'tfmini'}
+[0.002307] (-) JobUnselected: {'identifier': 'thoneflow'}
+[0.002314] (-) JobUnselected: {'identifier': 'time_persistor'}
+[0.002321] (-) JobUnselected: {'identifier': 'tla2528'}
+[0.002329] (-) JobUnselected: {'identifier': 'tmp102'}
+[0.002336] (-) JobUnselected: {'identifier': 'tone_alarm'}
+[0.002343] (-) JobUnselected: {'identifier': 'top'}
+[0.002350] (-) JobUnselected: {'identifier': 'topic_listener'}
+[0.002358] (-) JobUnselected: {'identifier': 'transponder'}
+[0.002365] (-) JobUnselected: {'identifier': 'tune_control'}
+[0.002373] (-) JobUnselected: {'identifier': 'uavcan'}
+[0.002380] (-) JobUnselected: {'identifier': 'uavcannode'}
+[0.002388] (-) JobUnselected: {'identifier': 'ulanding_radar'}
+[0.002395] (-) JobUnselected: {'identifier': 'uorb'}
+[0.002402] (-) JobUnselected: {'identifier': 'usb_connected'}
+[0.002410] (-) JobUnselected: {'identifier': 'uuv_att_control'}
+[0.002417] (-) JobUnselected: {'identifier': 'uuv_pos_control'}
+[0.002425] (-) JobUnselected: {'identifier': 'uwb'}
+[0.002432] (-) JobUnselected: {'identifier': 'uxrce_dds_client'}
+[0.002439] (-) JobUnselected: {'identifier': 'vectornav'}
+[0.002447] (-) JobUnselected: {'identifier': 'ver'}
+[0.002454] (-) JobUnselected: {'identifier': 'vertiq_io'}
+[0.002467] (-) JobUnselected: {'identifier': 'vl53l0x'}
+[0.002475] (-) JobUnselected: {'identifier': 'vl53l1x'}
+[0.002482] (-) JobUnselected: {'identifier': 'voxl2_io'}
+[0.002490] (-) JobUnselected: {'identifier': 'voxl_esc'}
+[0.002497] (-) JobUnselected: {'identifier': 'voxlpm'}
+[0.002504] (-) JobUnselected: {'identifier': 'vtol_att_control'}
+[0.002512] (-) JobUnselected: {'identifier': 'vtx'}
+[0.002519] (-) JobUnselected: {'identifier': 'vtxtable'}
+[0.002527] (-) JobUnselected: {'identifier': 'work_item'}
+[0.002534] (-) JobUnselected: {'identifier': 'work_queue'}
+[0.002541] (-) JobUnselected: {'identifier': 'zenoh'}
+[0.002551] (force_land) JobQueued: {'identifier': 'force_land', 'dependencies': OrderedDict([('px4_msgs', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs')])}
+[0.002565] (force_land) JobStarted: {'identifier': 'force_land'}
+[0.014926] (force_land) JobProgress: {'identifier': 'force_land', 'progress': 'cmake'}
+[0.015486] (force_land) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/force_land', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/force_land'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/opt/ros/humble')]), 'shell': False}
+[0.029878] (force_land) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099305] (-) TimerEvent: {}
+[0.137579] (force_land) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.169827] (force_land) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.173334] (force_land) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.181624] (force_land) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.194139] (force_land) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199392] (-) TimerEvent: {}
+[0.207202] (force_land) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.231467] (force_land) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.288881] (force_land) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.295987] (force_land) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299497] (-) TimerEvent: {}
+[0.380018] (force_land) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.399606] (-) TimerEvent: {}
+[0.403602] (force_land) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.446547] (force_land) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.458111] (force_land) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.499720] (-) TimerEvent: {}
+[0.525575] (force_land) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.525830] (force_land) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.589107] (force_land) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.591108] (force_land) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.599823] (-) TimerEvent: {}
+[0.667216] (force_land) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem thread \n'}
+[0.672339] (force_land) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.699921] (-) TimerEvent: {}
+[0.749075] (force_land) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.749312] (force_land) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/telemaque/Robotics_Lab/ros2_ws/force_land/include\n'}
+[0.749411] (force_land) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.750230] (force_land) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.751079] (force_land) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.751155] (force_land) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.751446] (force_land) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.752113] (force_land) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.764080] (force_land) StdoutLine: {'line': b'-- Generating done\n'}
+[0.766309] (force_land) StdoutLine: {'line': b'-- Build files have been written to: /home/telemaque/Robotics_Lab/ros2_ws/build/force_land\n'}
+[0.773208] (force_land) CommandEnded: {'returncode': 0}
+[0.773961] (force_land) JobProgress: {'identifier': 'force_land', 'progress': 'build'}
+[0.774944] (force_land) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/opt/ros/humble')]), 'shell': False}
+[0.800063] (-) TimerEvent: {}
+[0.822731] (force_land) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/force_land.dir/src/force_land_node.cpp.o\x1b[0m\n'}
+[0.900209] (-) TimerEvent: {}
+[1.000520] (-) TimerEvent: {}
+[1.100827] (-) TimerEvent: {}
+[1.201140] (-) TimerEvent: {}
+[1.301481] (-) TimerEvent: {}
+[1.401794] (-) TimerEvent: {}
+[1.502137] (-) TimerEvent: {}
+[1.602434] (-) TimerEvent: {}
+[1.702759] (-) TimerEvent: {}
+[1.803087] (-) TimerEvent: {}
+[1.903431] (-) TimerEvent: {}
+[2.003801] (-) TimerEvent: {}
+[2.104150] (-) TimerEvent: {}
+[2.204454] (-) TimerEvent: {}
+[2.304755] (-) TimerEvent: {}
+[2.405127] (-) TimerEvent: {}
+[2.505395] (-) TimerEvent: {}
+[2.605753] (-) TimerEvent: {}
+[2.706164] (-) TimerEvent: {}
+[2.806545] (-) TimerEvent: {}
+[2.906905] (-) TimerEvent: {}
+[3.007323] (-) TimerEvent: {}
+[3.107663] (-) TimerEvent: {}
+[3.208002] (-) TimerEvent: {}
+[3.308360] (-) TimerEvent: {}
+[3.408722] (-) TimerEvent: {}
+[3.509038] (-) TimerEvent: {}
+[3.609347] (-) TimerEvent: {}
+[3.709666] (-) TimerEvent: {}
+[3.809983] (-) TimerEvent: {}
+[3.910325] (-) TimerEvent: {}
+[4.010649] (-) TimerEvent: {}
+[4.111003] (-) TimerEvent: {}
+[4.211307] (-) TimerEvent: {}
+[4.311668] (-) TimerEvent: {}
+[4.411986] (-) TimerEvent: {}
+[4.512295] (-) TimerEvent: {}
+[4.612658] (-) TimerEvent: {}
+[4.712990] (-) TimerEvent: {}
+[4.813319] (-) TimerEvent: {}
+[4.913642] (-) TimerEvent: {}
+[5.013953] (-) TimerEvent: {}
+[5.114286] (-) TimerEvent: {}
+[5.214597] (-) TimerEvent: {}
+[5.314906] (-) TimerEvent: {}
+[5.415244] (-) TimerEvent: {}
+[5.515563] (-) TimerEvent: {}
+[5.615875] (-) TimerEvent: {}
+[5.716177] (-) TimerEvent: {}
+[5.816531] (-) TimerEvent: {}
+[5.916886] (-) TimerEvent: {}
+[6.017206] (-) TimerEvent: {}
+[6.117538] (-) TimerEvent: {}
+[6.217864] (-) TimerEvent: {}
+[6.318189] (-) TimerEvent: {}
+[6.418534] (-) TimerEvent: {}
+[6.518981] (-) TimerEvent: {}
+[6.619501] (-) TimerEvent: {}
+[6.719914] (-) TimerEvent: {}
+[6.820278] (-) TimerEvent: {}
+[6.920618] (-) TimerEvent: {}
+[7.020961] (-) TimerEvent: {}
+[7.121302] (-) TimerEvent: {}
+[7.221619] (-) TimerEvent: {}
+[7.321982] (-) TimerEvent: {}
+[7.422362] (-) TimerEvent: {}
+[7.522677] (-) TimerEvent: {}
+[7.622992] (-) TimerEvent: {}
+[7.723326] (-) TimerEvent: {}
+[7.823640] (-) TimerEvent: {}
+[7.923969] (-) TimerEvent: {}
+[8.024290] (-) TimerEvent: {}
+[8.124597] (-) TimerEvent: {}
+[8.224899] (-) TimerEvent: {}
+[8.325197] (-) TimerEvent: {}
+[8.425505] (-) TimerEvent: {}
+[8.525829] (-) TimerEvent: {}
+[8.626156] (-) TimerEvent: {}
+[8.726491] (-) TimerEvent: {}
+[8.826782] (-) TimerEvent: {}
+[8.927116] (-) TimerEvent: {}
+[9.027447] (-) TimerEvent: {}
+[9.127731] (-) TimerEvent: {}
+[9.228024] (-) TimerEvent: {}
+[9.328362] (-) TimerEvent: {}
+[9.428680] (-) TimerEvent: {}
+[9.529030] (-) TimerEvent: {}
+[9.629355] (-) TimerEvent: {}
+[9.729641] (-) TimerEvent: {}
+[9.829951] (-) TimerEvent: {}
+[9.930234] (-) TimerEvent: {}
+[10.030518] (-) TimerEvent: {}
+[10.130784] (-) TimerEvent: {}
+[10.231198] (-) TimerEvent: {}
+[10.331511] (-) TimerEvent: {}
+[10.431489] (force_land) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable force_land\x1b[0m\n'}
+[10.431769] (-) TimerEvent: {}
+[10.532097] (-) TimerEvent: {}
+[10.633081] (-) TimerEvent: {}
+[10.733758] (-) TimerEvent: {}
+[10.834132] (-) TimerEvent: {}
+[10.931209] (force_land) StdoutLine: {'line': b'[100%] Built target force_land\n'}
+[10.934284] (-) TimerEvent: {}
+[10.942144] (force_land) CommandEnded: {'returncode': 0}
+[10.942671] (force_land) JobProgress: {'identifier': 'force_land', 'progress': 'install'}
+[10.950611] (force_land) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/PX4-Autopilot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '4129'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1882,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1882'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/953b11d7_ad87_453b_a549_bf49a03c1435'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDJJJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/force_land'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/px4_msgs:/opt/ros/humble')]), 'shell': False}
+[10.956586] (force_land) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.956762] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/lib/force_land/force_land\n'}
+[10.959763] (force_land) StdoutLine: {'line': b'-- Set runtime path of "/home/telemaque/Robotics_Lab/ros2_ws/install/force_land/lib/force_land/force_land" to ""\n'}
+[10.959941] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/package_run_dependencies/force_land\n'}
+[10.960036] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/parent_prefix_path/force_land\n'}
+[10.960148] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/ament_prefix_path.sh\n'}
+[10.960246] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/ament_prefix_path.dsv\n'}
+[10.960363] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/path.sh\n'}
+[10.960437] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/environment/path.dsv\n'}
+[10.960564] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.bash\n'}
+[10.960738] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.sh\n'}
+[10.960906] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.zsh\n'}
+[10.961022] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/local_setup.dsv\n'}
+[10.961137] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/package.dsv\n'}
+[10.961319] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/ament_index/resource_index/packages/force_land\n'}
+[10.961464] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/cmake/force_landConfig.cmake\n'}
+[10.961567] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/cmake/force_landConfig-version.cmake\n'}
+[10.961680] (force_land) StdoutLine: {'line': b'-- Installing: /home/telemaque/Robotics_Lab/ros2_ws/install/force_land/share/force_land/package.xml\n'}
+[10.963572] (force_land) CommandEnded: {'returncode': 0}
+[10.974913] (force_land) JobEnded: {'identifier': 'force_land', 'rc': 0}
+[10.975450] (-) EventReactorShutdown: {}

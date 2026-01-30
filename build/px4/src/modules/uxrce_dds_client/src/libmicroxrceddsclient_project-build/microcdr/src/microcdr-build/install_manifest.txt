@@ -1,0 +1,8 @@
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.a
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/temp_install/microcdr-2.0.1/include/ucdr/microcdr.h
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/temp_install/microcdr-2.0.1/include/ucdr/visibility.h
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/temp_install/microcdr-2.0.1/include/ucdr/config.h
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets.cmake
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets-relwithdebinfo.cmake
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfig.cmake
+/home/telemaque/Robotics_Lab/ros2_ws/build/px4/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfigVersion.cmake

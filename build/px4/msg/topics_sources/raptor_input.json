@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a[3] position;\u008a[4] orientation;\u008a[3] linear_velocity;\u008a[3] angular_velocity;\u008a[4] previous_action;\u008c active;\u0086[3] _padding0;",
+		"fields_total_length": 193,
+		"orb_ids": [204],
+		"main_orb_id": 204,
+		"dependencies": [],
+		"name": "px4/RaptorInput"
+}

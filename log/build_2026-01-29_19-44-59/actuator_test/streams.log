@@ -1,0 +1,43 @@
+[0.045s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/actuator_test': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/systemcmds/actuator_test -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/actuator_test
+[0.088s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.088s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.088s]   contain a literal, direct call to the project() command.  Add a line of
+[0.088s]   code such as
+[0.088s] 
+[0.088s]     project(ProjectName)
+[0.088s] 
+[0.088s]   near the top of the file, but after cmake_minimum_required().
+[0.088s] 
+[0.088s]   CMake is pretending there is a "project(Project)" command on the first
+[0.089s]   line.
+[0.089s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.089s] [0m
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.212s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.438s] -- Detecting CXX compile features
+[0.441s] -- Detecting CXX compile features - done
+[0.441s] -- Configuring incomplete, errors occurred!
+[0.441s] See also "/home/telemaque/Robotics_Lab/ros2_ws/build/actuator_test/CMakeFiles/CMakeOutput.log".
+[0.441s] [31mCMake Error at CMakeLists.txt:33 (px4_add_module):
+[0.441s]   Unknown CMake command "px4_add_module".
+[0.441s] 
+[0.441s] [0m
+[0.442s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.442s]   No cmake_minimum_required command is present.  A line of code such as
+[0.442s] 
+[0.442s]     cmake_minimum_required(VERSION 3.22)
+[0.442s] 
+[0.442s]   should be added at the top of the file.  The version specified may be lower
+[0.442s]   if you wish to support older CMake versions for this project.  For more
+[0.442s]   information run "cmake --help-policy CMP0000".
+[0.442s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.442s] [0m
+[0.451s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/actuator_test' returned '1': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/systemcmds/actuator_test -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/actuator_test

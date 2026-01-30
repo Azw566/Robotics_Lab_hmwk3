@@ -1,0 +1,4 @@
+source;share/force_land/local_setup.bash
+source;share/force_land/local_setup.dsv
+source;share/force_land/local_setup.sh
+source;share/force_land/local_setup.zsh

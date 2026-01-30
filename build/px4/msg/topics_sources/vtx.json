@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0087 frequency;\u0086 protocol;\u0086 device;\u0086 mode;\u0082 band;\u0082 channel;\u0086 band_letter;\u0086[12] band_name;\u0082 power_level;\u0086[4] power_label;\u0086[7] _padding0;",
+		"fields_total_length": 215,
+		"orb_ids": [303],
+		"main_orb_id": 303,
+		"dependencies": [],
+		"name": "px4/Vtx"
+}

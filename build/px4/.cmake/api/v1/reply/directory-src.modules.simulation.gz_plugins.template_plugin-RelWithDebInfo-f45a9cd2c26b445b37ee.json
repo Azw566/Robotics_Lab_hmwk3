@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/modules/simulation/gz_plugins/template_plugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_gz_plugins",
+			"paths" : 
+			[
+				"src/modules/simulation/gz_plugins/libTemplatePlugin.so"
+			],
+			"targetId" : "TemplatePlugin::@8c1ee973ba0d411e459a",
+			"targetIndex" : 63,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/modules/simulation/gz_plugins/template_plugin",
+		"source" : "src/modules/simulation/gz_plugins/template_plugin"
+	}
+}

@@ -1,0 +1,1 @@
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/airspeed_selector': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/modules/airspeed_selector -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/airspeed_selector

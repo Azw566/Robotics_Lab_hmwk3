@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgnss.a CMakeFiles/gnss.dir/rtcm.cpp.o
+/usr/bin/ranlib libgnss.a
